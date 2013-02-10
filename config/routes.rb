@@ -1,8 +1,15 @@
 Hemdenpilot::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/hemden"
-  get "static_pages/about"
-  get "static_pages/impressum"
+  #get "static_pages/home"
+  #get "static_pages/hemden"
+  #get "static_pages/about"
+  #get "static_pages/impressum"
+
+  root to: 'static_pages#home'
+
+	match '/help', to: 'static_pages#help'
+	match '/hemden', to: 'static_pages#hemden'
+	match '/about', to: 'static_pages#about'
+	match '/impressum', to: 'static_pages#impressum'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
