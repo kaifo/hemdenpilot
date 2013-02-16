@@ -19,7 +19,7 @@
         <%= image_tag "Auswahl_009.png" %>
 	     </div>
 	     <div class="span9" style="padding:1%;">
-	      <p>F&uuml;r die Hemdenl&auml;nge gilt als Faustregel: K&ouml;rpergr&ouml;&szlig;e minus 100cm</p>
+	      <p>In der Testdatenbank gibt es jeweils zwei Hemden mit Gr&ouml;&szlig;en 10 und 11</p>
 	     </div>
 	    </div>
 	   </div>
