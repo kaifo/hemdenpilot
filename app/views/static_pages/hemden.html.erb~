@@ -282,9 +282,12 @@
 	<div class="row-fluid" style="margin-top:20px;">
 	 <div class="span12" align="center">
 	  <button class="btn btn-primary btn-large">
-	   passende Hemden finden
+			<%= link_to "passende Hemden finden", find_path %>
 	  </button>
-	 </div>
+		<ul>
+							<li><%= link_to "About",         about_path %></li>
+		</ul>	 
+	</div>
 	<div>
   	
       </div><!--/span12-->

@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Producer:</b>
+  <%= @shirt.producer %>
+</p>
+
+<p>
+  <b>Colour:</b>
+  <%= @shirt.colour %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%= @shirt.size %>
+</p>
+
+
+<%= link_to 'Edit', edit_shirt_path(@shirt) %> |
+<%= link_to 'Back', shirts_path %>
