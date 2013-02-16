@@ -44,10 +44,9 @@
 	 <div class="span6"  align="center">
     <form class="form-search">
 					<%= form_tag results_path, :method => "get" do %>
-		        <%= link_to "Ergebnis" if params[:q], results_path %>
 				  	<%= text_field_tag :q, params[:q] %>
-				  	<%= submit_tag("Hemd suchen") %>
-					<% end %>
+		        <%= submit_tag "Ergebnis" %>
+
 		</form>
 	 </div>
 
@@ -77,6 +76,8 @@
 	 <div class="span12"  align="center">
 
 
+
+
 <table class="table">
   <tr>
     <th>Producer</th>
@@ -98,7 +99,7 @@
   </tr>
 <% end %>
 </table>
-
+					<% end %>
 
 </div>
 </div>

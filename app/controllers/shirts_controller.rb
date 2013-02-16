@@ -2,7 +2,7 @@ class ShirtsController < ApplicationController
   # GET /shirts
   # GET /shirts.json
   def index
-    @shirts = Shirt.all
+    @shirts = Shirt.where(:size => params[:q])
 
     respond_to do |format|
       format.html # index.html.erb
@@ -22,7 +22,7 @@ class ShirtsController < ApplicationController
   end
 
   def results
-    @shirts = Shirt.where(:size => q)
+    @shirts = Shirt.where(:size => params[:q])
 
     respond_to do |format|
       format.html # index.html.erb
