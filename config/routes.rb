@@ -10,10 +10,11 @@ Hemdenpilot::Application.routes.draw do
   root to: 'static_pages#home'
 
 	match '/help', to: 'static_pages#help'
-	match '/hemden', to: 'static_pages#hemden'
+	match '/hemden', to: 'shirts#index'
 	match '/about', to: 'static_pages#about'
 	match '/impressum', to: 'static_pages#impressum'
-	match '/find', to: 'shirts#index'
+	match '/new', to: 'shirts#new'
+	match '/results', to: 'shirts#results'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
