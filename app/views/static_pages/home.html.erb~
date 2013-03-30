@@ -1,7 +1,6 @@
   <div class="row-fluid" style="margin-top:-20px;">
-    <div class="span12" style="height:400px; overflow:hidden">
+    <div class="span12" style="min-height:400px; overflow:hidden">
 			<%= image_tag("front.jpg") %>
-
        <div style="position:absolute; top:100px; z-index:2; right:10%;">
           <h1 style="color:white">Hemdenpilot</h1>
           <p style="color:white">endlich ist Hemden kaufen einfach</p>
@@ -10,25 +9,34 @@
   </div>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="span4">
-          <h2>Erster Inhalt</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">Mehr dazu &raquo;</a></p>
+    <div class="container-fluid">
+      <div class="row-fluid	">
+        <div class="span4" style="position:absolute; top:350px; z-index:2; right:10%;">
+          <h3 style="color:white;">Erster Inhalt</h3>
+          <p style="color:white; margin-bottom:15px;">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><li><%= link_to "Hemden finden", hemden_path, class: "btn" %></li></p>
         </div>
+      </div>
+
+    </div> <!-- /container -->
+
+    <div class="container-fluid">
+      <div class="row-fluid	">
         <div class="span4">
           <h2>Zweiter Inhalt</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn" href="#">Mehr dazu &raquo;</a></p>
-       </div>
+        </div>
         <div class="span4">
           <h2>Dritter Inhalt</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">Mehr dazu &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Vierter Inhalt</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn" href="#">Mehr dazu &raquo;</a></p>
         </div>
       </div>
-
-      <hr>
 
     </div> <!-- /container -->

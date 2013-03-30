@@ -1,109 +1,115 @@
- <div class="container"  style="margin-top:50px;">
-  <div class="row-fluid">
-		<div class="span12">
-      <div class="hero-unit">
-       <h1 style="margin-bottom:10px;">Ma&szlig;anleitung</h1>
-		    <p>Trage hier deine Ma&szlig;e ein. Du kannst alle Daten eintragen und am Ende der Seite nach dem Passenden Hemd suchen oder auch nach einzelnen Ma&szlig; suchen indem du auf "direkt suchen" klickst. Zu jedem zu messenden K&ouml;rperteil findest du eine einfache Anleitung.</p>
-		    <p>Mit dieser Anleitung kannst du schnell und einfach lernen, dich selbst zu vermessen und ein perfekt sitzendes Ma&szlig;hemd zu finden.</p>
-		    <p>Wir danken dir f&uuml;r deine Bestellung und w&uuml;nschen viel Spa&szlig; mit deinen neuen Hemden.</p>
-      </div><!-- hero-->
-		</div><!-- span -->
-	</div><!-- row-->
-
+<div class="container-fluid" style="margin-top:50px;">
 	<div class="row-fluid">
-
-    <div class="span6">
-	   <h3>Gr&ouml;&szlig;e</h3>
-	    <div class="row-fluid">
-	     <div class="span3">     
-        <%= image_tag "Auswahl_009.png" %>
-	     </div>
-	     <div class="span9" style="padding:1%;">
-	      <p>In der Testdatenbank gibt es jeweils zwei Hemden mit Gr&ouml;&szlig;en 10 und 11</p>
-	     </div>
-	    </div>
-	   </div>
-	  
-	  <div class="span6">
-	   <h3>Farbe</h3>
-	    <div class="row-fluid">
-	     <div class="span3">     
-        <%= image_tag "Auswahl_010.png" %>
-	     </div>
-	     <div class="span9" style="padding:1%;">
-	      <p>Hier hast du noch die M&ouml;glichkeit der Farb- oder Musterauswahl.
-	      <p>Viel Spa&szlig; mit deinem neuen Kleidungsst&uuml;ck :-)</p>
-	     </div>
-	    </div>
-		</div>
-
-	</div> <!-- row -->
-
-
-	<div class="row-fluid" style="margin-top:20px;">
-	 <div class="span6"  align="center">
-    <form class="form-search">
-					<%= form_tag results_path, :method => "get" do %>
+		<div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="nav-header">Sidebar</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
 				  	<%= text_field_tag :q, params[:q] %>
-		        <%= submit_tag "Ergebnis" %>
+		        <%= submit_tag "Größe" %>
+						<% end %>
+					</form>
+					</li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li class="nav-header">Sidebar</li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li class="nav-header">Sidebar</li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
 
-		</form>
-	 </div>
+		<div class="span9">
+			<div class="row-fluid">
+		    <div class="span6">
+					<h3>Gr&ouml;&szlig;e</h3>
+					<div class="row-fluid">
+						<div class="span3">     
+       				<%= image_tag "Auswahl_009.png" %>
+     				</div>
+     				<div class="span9" style="padding:1%;">
+      				<p>In der Testdatenbank gibt es jeweils zwei Hemden mit Gr&ouml;&szlig;en 10 und 11</p>
+     				</div>
+    			</div> <!-- /row -->
+	   		</div> <!-- /span6 -->
+				<div class="span6">
+					<h3>Farbe</h3>
+					<div class="row-fluid">
+						<div class="span3">     
+							<%= image_tag "Auswahl_010.png" %>
+	     			</div>
+	     			<div class="span9" style="padding:1%;">
+	      			<p>Hier hast du noch die M&ouml;glichkeit der Farb- oder Musterauswahl.
+	      			<p>Das funktioniert noch nicht, kommt als nächstes</p>
+	     			</div>
+    			</div> <!-- /row -->
+	   		</div> <!-- /span6 -->
+			</div> <!-- row -->
+			
+			<div class="row-fluid" style="margin-top:20px;">
+				<div class="span6"  align="center">
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q] %>
+		        <%= submit_tag "Ergebnis", :class => "btn-search" %>
+						<% end %>
+					</form>
+				</div> <!-- span6 -->
+				<div class="span6" align="center">
+	  			<div class="btn-group">
+ 	   				<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdenfarbe <span class="caret"></span> </button>
+							<ul class="dropdown-menu">
+    			      <li><a tabindex="-1">Wei&szlig;</a></li>
+    			      <li><a tabindex="-1">Schwarz</a></li>
+    			      <li><a tabindex="-1">Rot</a></li>
+    			      <li><a tabindex="-1" href="#">Blau</a></li>
+    			      <li><a tabindex="-1" href="#">Gelb</a></li>
+    			      <li><a tabindex="-1" href="#">Gr&uuml;n</a></li>
+    			      <li class="divider"></li>
+    	          <li><a tabindex="-1" href="#">Gestreift</a></li>
+    	          <li><a tabindex="-1" href="#">Kariert</a></li>
+    					</ul>
+						<button type="submit" class="btn">direkt suchen</button>
+          </div> <!-- /button group -->
+	   		</div> <!-- /span6 -->
+			</div> <!-- /row -->
 
+			<div class="row-fluid" style="margin-top:20px;">
+				<div class="span12"  align="center">
+					<table class="table">
+						<tr>
+							<th>Hersteller</th>
+							<th>Farbe</th>
+							<th>Größe</th>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+						<% @shirts.each do |shirt| %>
+						<tr>
+							<td><%= shirt.producer %></td>
+							<td><%= shirt.colour %></td>
+							<td><%= shirt.size %></td>
+							<td><%= link_to 'Anzeigen', shirt %></td>
+							<td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
+							<td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+						</tr>
+						<% end %>
+					</table>
+				</div> <!-- /span 12-->
+			</div><!-- /row -->
 
-	 <div class="span6" align="center">
-	  <div class="btn-group">
- 	   <button type="select" class="btn dropdown-toggle" data-toggle="dropdown">
-		Hemdenfarbe <span class="caret"></span>
-	   </button>
-	    <ul class="dropdown-menu">
-    	     <li><a tabindex="-1">Wei&szlig;</a></li>
-    	     <li><a tabindex="-1">Schwarz</a></li>
-    	     <li><a tabindex="-1">Rot</a></li>
-    	     <li><a tabindex="-1" href="#">Blau</a></li>
-    	     <li><a tabindex="-1" href="#">Gelb</a></li>
-    	     <li><a tabindex="-1" href="#">Gr&uuml;n</a></li>
-    	     <li class="divider"></li>
-             <li><a tabindex="-1" href="#">Gestreift</a></li>
-             <li><a tabindex="-1" href="#">Kariert</a></li>
-    	    </ul>
-           <button type="submit" class="btn">direkt suchen</button>
-          </div>
-	 </div>
-	</div> <!-- row -->
-
-	<div class="row-fluid" style="margin-top:20px;">
-	 <div class="span12"  align="center">
-
-
-
-
-<table class="table">
-  <tr>
-    <th>Producer</th>
-    <th>Colour</th>
-    <th>Size</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @shirts.each do |shirt| %>
-  <tr>
-    <td><%= shirt.producer %></td>
-    <td><%= shirt.colour %></td>
-    <td><%= shirt.size %></td>
-    <td><%= link_to 'Anzeigen', shirt %></td>
-    <td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
-    <td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-					<% end %>
-
-</div>
-</div>
-  	
-      </div><!--/span12-->
-    </div> <!-- row -->
-    </div><!--/.fluid-container--> </div>
+		</div><!-- span10 -->
+	</div> <!-- /row -->
+</div><!--/.fluid-container--> </div>
