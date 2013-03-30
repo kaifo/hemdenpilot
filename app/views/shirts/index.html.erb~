@@ -40,6 +40,12 @@
      				</div>
      				<div class="span9" style="padding:1%;">
       				<p>In der Testdatenbank gibt es jeweils zwei Hemden mit Gr&ouml;&szlig;en 10 und 11</p>
+							<form class="form-search">
+								<%= form_tag results_path, :method => "get" do %>
+						  	<%= text_field_tag :q, params[:q] %>
+				        <%= submit_tag "Ergebnis" %>
+								<% end %>
+							</form>
      				</div>
     			</div> <!-- /row -->
 	   		</div> <!-- /span6 -->
@@ -51,7 +57,21 @@
 	     			</div>
 	     			<div class="span9" style="padding:1%;">
 	      			<p>Hier hast du noch die M&ouml;glichkeit der Farb- oder Musterauswahl.
-	      			<p>Das funktioniert noch nicht, kommt als nächstes</p>
+			  			<div class="btn-group">
+ 	  		 				<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdenfarbe <span class="caret"></span> </button>
+									<ul class="dropdown-menu" align="center">
+    					      <li><a tabindex="-1">Wei&szlig;</a></li>
+    					      <li><a tabindex="-1">Schwarz</a></li>
+    					      <li><a tabindex="-1">Rot</a></li>
+    					      <li><a tabindex="-1" href="#">Blau</a></li>
+    					      <li><a tabindex="-1" href="#">Gelb</a></li>
+    					      <li><a tabindex="-1" href="#">Gr&uuml;n</a></li>
+    					      <li class="divider"></li>
+    			          <li><a tabindex="-1" href="#">Gestreift</a></li>
+    			          <li><a tabindex="-1" href="#">Kariert</a></li>
+    							</ul>
+								<button type="submit" class="btn">direkt suchen</button>
+    		      </div> <!-- /button group -->
 	     			</div>
     			</div> <!-- /row -->
 	   		</div> <!-- /span6 -->
@@ -66,10 +86,10 @@
 						<% end %>
 					</form>
 				</div> <!-- span6 -->
-				<div class="span6" align="center">
+				<div class="span6">
 	  			<div class="btn-group">
  	   				<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdenfarbe <span class="caret"></span> </button>
-							<ul class="dropdown-menu">
+							<ul class="dropdown-menu" align="center">
     			      <li><a tabindex="-1">Wei&szlig;</a></li>
     			      <li><a tabindex="-1">Schwarz</a></li>
     			      <li><a tabindex="-1">Rot</a></li>
@@ -91,7 +111,7 @@
 					<table class="table table-hover">
 						<% @shirts.each do |shirt| %>
 						<tr>
-							<td> <%= image_tag "result_pic.jpg" %>
+							<td> <%= image_tag "result_pic.png" %>
 							<td style="vertical-align:middle;"><%= shirt.producer %></td>
 							<td style="vertical-align:middle;">Farbe: <%= shirt.colour %></td>
 							<td style="vertical-align:middle;">Gr&ouml;&szlig;e: <%= shirt.size %></td>
