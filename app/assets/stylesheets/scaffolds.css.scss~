@@ -27,12 +27,6 @@ a {
     color: #fff;
     background-color: #000;
   }
-
-a:visited {
-color: #551A8B;
-}
-
-
 }
 
 div {

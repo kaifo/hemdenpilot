@@ -88,22 +88,16 @@
 			<div class="row-fluid" style="margin-top:20px;">
 				<div class="span12"  align="center">
 					<table class="table">
-						<tr>
-							<th>Hersteller</th>
-							<th>Farbe</th>
-							<th>Größe</th>
-							<th></th>
-							<th></th>
-							<th></th>
-						</tr>
+					<table class="table table-hover">
 						<% @shirts.each do |shirt| %>
 						<tr>
-							<td><%= shirt.producer %></td>
-							<td><%= shirt.colour %></td>
-							<td><%= shirt.size %></td>
-							<td><%= link_to 'Anzeigen', shirt %></td>
-							<td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
-							<td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+							<td> <%= image_tag "result_pic.png" %>
+							<td style="vertical-align:middle;"><%= shirt.producer %></td>
+							<td style="vertical-align:middle;">Farbe: <%= shirt.colour %></td>
+							<td style="vertical-align:middle;">Gr&ouml;&szlig;e: <%= shirt.size %></td>
+							<td style="vertical-align:middle;"><%= link_to 'Hemd ansehen', shirt, :class => 'btn	btn-primary' %></td>
+							<!-- <td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
+							<td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
 						</tr>
 						<% end %>
 					</table>
