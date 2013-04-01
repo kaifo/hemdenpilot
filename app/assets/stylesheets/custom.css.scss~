@@ -1,4 +1,8 @@
 @import "bootstrap";
 
-@import "twitter/bootstrap/responsive";
+
+
+front_content {
+	text-align: justify;
+	}
 

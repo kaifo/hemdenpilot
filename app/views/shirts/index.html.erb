@@ -2,30 +2,104 @@
 	<div class="row-fluid">
 		<div class="span3">
       <div class="well sidebar-nav">
+				<h5>Alle Angaben gerundet in cm</h3>
         <ul class="nav nav-list">
-          <li class="nav-header">Sidebar</li>
+          <li class="nav-header">Weiten</li>
           <li>
 					<form class="form-search">
 						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q] %>
-		        <%= submit_tag "Größe" %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Kragen" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
 						<% end %>
 					</form>
 					</li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li class="nav-header">Sidebar</li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li class="nav-header">Sidebar</li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Brust" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Taille" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Gesäß" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>
+          <li class="nav-header">Arme</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Bizeps" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>
+					</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Schulter" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Ärmellänge" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Handgelenk" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>
+          <li class="nav-header">L&auml;ngen</li>
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Hemdlänge" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Länge zur Brust" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Länge zur Taille" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Länge zur Hüfte" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>					
+					</li>
         </ul>
       </div><!--/.well -->
     </div><!--/span-->
@@ -43,7 +117,7 @@
 							<form class="form-search">
 								<%= form_tag results_path, :method => "get" do %>
 						  	<%= text_field_tag :q, params[:q] %>
-				        <%= submit_tag "Ergebnis" %>
+				        <%= submit_tag "Ergebnis", :class => "btn btn-primary" %>
 								<% end %>
 							</form>
      				</div>
@@ -60,9 +134,9 @@
 			  			<div class="btn-group">
  	  		 				<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdenfarbe <span class="caret"></span> </button>
 									<ul class="dropdown-menu" align="center">
-    					      <li><a tabindex="-1">Wei&szlig;</a></li>
-    					      <li><a tabindex="-1">Schwarz</a></li>
-    					      <li><a tabindex="-1">Rot</a></li>
+    					      <li><a tabindex="-1" href="#">Wei&szlig;</a></li>
+    					      <li><a tabindex="-1" href="#">Schwarz</a></li>
+    					      <li><a tabindex="-1" href="#">Rot</a></li>
     					      <li><a tabindex="-1" href="#">Blau</a></li>
     					      <li><a tabindex="-1" href="#">Gelb</a></li>
     					      <li><a tabindex="-1" href="#">Gr&uuml;n</a></li>
@@ -70,7 +144,6 @@
     			          <li><a tabindex="-1" href="#">Gestreift</a></li>
     			          <li><a tabindex="-1" href="#">Kariert</a></li>
     							</ul>
-								<button type="submit" class="btn">direkt suchen</button>
     		      </div> <!-- /button group -->
 	     			</div>
     			</div> <!-- /row -->
