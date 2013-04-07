@@ -1,0 +1,687 @@
+1;eterna;;37;112;108;108;65/67;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+2;eterna;;38;112;108;108;65/67;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+3;eterna;;39;120;114;108;65/67;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+4;eterna;;40;120;114;108;65/67;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+5;eterna;;41;128;124;114;65/67;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+6;eterna;;42;128;124;114;65/67;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+7;eterna;;43;134;134;114;65/67;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+8;eterna;;44;134;134;114;65/67;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+9;eterna;;45;148;148;124;65/67;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+10;eterna;;46;148;148;124;65/67;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+11;eterna;;47;154;154;124;65/67;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+12;eterna;;48;154;154;124;65/67;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+13;eterna;;49;160;160;134;65/67;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+14;eterna;;50;160;160;134;65/67;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+15;eterna;;51;168;168;134;65/67;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+16;eterna;;52;168;168;134;65/67;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+17;eterna;;53;176;176;148;65/67;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+18;eterna;;54;176;176;148;65/67;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+19;eterna;;55;184;184;148;65/67;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+20;eterna;;56;184;184;148;65/67;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+21;eterna;;57;192;192;154;65/67;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+22;eterna;;58;192;192;154;65/67;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+23;eterna;;59;200;200;154;65/67;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+24;eterna;;60;200;200;154;65/67;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+25;eterna;;37;112;108;108;28;17;;17;Halbarm;COMFORT FIT;;;;0;;;;20130407
+26;eterna;;38;112;108;108;28;17;;17;Halbarm;COMFORT FIT;;;;0;;;;20130407
+27;eterna;;39;120;114;108;28;17;8;;17;Halbarm;COMFORT FIT;;;;0;;;20130407
+28;eterna;;40;120;114;108;28;17;8;;17;Halbarm;COMFORT FIT;;;;0;;;20130407
+29;eterna;;41;128;124;114;28;18;6;;17;8;Halbarm;COMFORT FIT;;;;0;;20130407
+30;eterna;;42;128;124;114;28;18;6;;17;8;Halbarm;COMFORT FIT;;;;0;;20130407
+31;eterna;;43;134;134;114;28;19;4;;17;8;Halbarm;COMFORT FIT;;;;0;;20130407
+32;eterna;;44;134;134;114;28;19;4;;17;8;Halbarm;COMFORT FIT;;;;0;;20130407
+33;eterna;;45;148;148;124;30;20;2;;18;6;Halbarm;COMFORT FIT;;;;0;;20130407
+34;eterna;;46;148;148;124;30;20;2;;18;6;Halbarm;COMFORT FIT;;;;0;;20130407
+35;eterna;;47;154;154;124;30;21;;18;6;Halbarm;COMFORT FIT;;;;0;;;20130407
+36;eterna;;48;154;154;124;30;21;;18;6;Halbarm;COMFORT FIT;;;;0;;;20130407
+37;eterna;;49;160;160;134;30;21;8;;19;4;Halbarm;COMFORT FIT;;;;0;;20130407
+38;eterna;;50;160;160;134;30;21;8;;19;4;Halbarm;COMFORT FIT;;;;0;;20130407
+39;eterna;;51;168;168;134;30;22;6;;19;4;Halbarm;COMFORT FIT;;;;0;;20130407
+40;eterna;;52;168;168;134;30;22;6;;19;4;Halbarm;COMFORT FIT;;;;0;;20130407
+41;eterna;;53;176;176;148;30;23;4;;20;2;Halbarm;COMFORT FIT;;;;0;;20130407
+42;eterna;;54;176;176;148;30;23;4;;20;2;Halbarm;COMFORT FIT;;;;0;;20130407
+43;eterna;;55;184;184;148;30;24;2;;20;2;Halbarm;COMFORT FIT;;;;0;;20130407
+44;eterna;;56;184;184;148;30;24;2;;20;2;Halbarm;COMFORT FIT;;;;0;;20130407
+45;eterna;;57;192;192;154;30;25;;21;Halbarm;COMFORT FIT;;;;0;;;;20130407
+46;eterna;;58;192;192;154;30;25;;21;Halbarm;COMFORT FIT;;;;0;;;;20130407
+47;eterna;;59;200;200;154;30;25;8;;21;Halbarm;COMFORT FIT;;;;0;;;20130407
+48;eterna;;60;200;200;154;30;25;8;;21;Halbarm;COMFORT FIT;;;;0;;;20130407
+49;eterna;;37;100;92;80;65/67;16;2;;16;2;Langarm;SLIM-FIT;;;;0;;20130407
+50;eterna;;38;100;92;80;65/68;16;2;;16;2;Langarm;SLIM-FIT;;;;0;;20130407
+51;eterna;;39;108;98;80;65/69;17;;16;2;Langarm;SLIM-FIT;;;;0;;;20130407
+52;eterna;;40;108;98;80;65/70;17;;16;2;Langarm;SLIM-FIT;;;;0;;;20130407
+53;eterna;;41;116;104;80;65/71;17;8;;17;Langarm;SLIM-FIT;;;;0;;;20130407
+54;eterna;;42;116;104;80;65/72;17;8;;17;Langarm;SLIM-FIT;;;;0;;;20130407
+55;eterna;;43;124;112;82;65/73;18;6;;17;Langarm;SLIM-FIT;;;;0;;;20130407
+56;eterna;;44;124;112;82;65/74;18;6;;17;Langarm;SLIM-FIT;;;;0;;;20130407
+57;eterna;;37;112;108;80;59;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+58;eterna;;38;112;108;80;59;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+59;eterna;;39;120;114;80;59;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+60;eterna;;40;120;114;80;59;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+61;eterna;;41;128;124;80;59;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+62;eterna;;42;128;124;80;59;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+63;eterna;;43;134;134;80;59;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+64;eterna;;44;134;134;80;59;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+65;eterna;;45;148;148;80;59;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+66;eterna;;46;148;148;80;59;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+67;eterna;;47;154;154;80;59;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+68;eterna;;48;154;154;80;59;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+69;eterna;;49;160;160;80;59;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+70;eterna;;50;160;160;80;59;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+71;eterna;;51;168;168;80;59;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+72;eterna;;52;168;168;80;59;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+73;eterna;;53;176;176;80;59;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+74;eterna;;54;176;176;80;59;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+75;eterna;;55;184;184;80;59;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+76;eterna;;56;184;184;80;59;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+77;eterna;;57;192;192;80;59;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+78;eterna;;58;192;192;80;59;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+79;eterna;;59;200;200;80;59;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+80;eterna;;60;200;200;80;59;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+81;eterna;;37;112;108;85;68;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+82;eterna;;38;112;108;85;68;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+83;eterna;;39;120;114;85;68;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+84;eterna;;40;120;114;85;68;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+85;eterna;;41;128;124;85;68;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+86;eterna;;42;128;124;85;68;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+87;eterna;;43;134;134;85;68;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+88;eterna;;44;134;134;85;68;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+89;eterna;;45;148;148;90;68;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+90;eterna;;46;148;148;90;68;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+91;eterna;;47;154;154;90;68;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+92;eterna;;48;154;154;90;68;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+93;eterna;;49;160;160;95;68;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+94;eterna;;50;160;160;95;68;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+95;eterna;;51;168;168;95;68;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+96;eterna;;52;168;168;95;68;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+97;eterna;;53;176;176;95;68;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+98;eterna;;54;176;176;95;68;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+99;eterna;;55;184;184;95;68;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+100;eterna;;56;184;184;95;68;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+101;eterna;;57;192;192;95;68;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+102;eterna;;58;192;192;95;68;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+103;eterna;;59;200;200;95;68;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+104;eterna;;60;200;200;95;68;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+105;eterna;;37;112;108;90;72;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+106;eterna;;38;112;108;90;72;17;;17;Langarm;COMFORT FIT;;;;0;;;;20130407
+107;eterna;;39;120;114;90;72;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+108;eterna;;40;120;114;90;72;17;8;;17;Langarm;COMFORT FIT;;;;0;;;20130407
+109;eterna;;41;128;124;90;72;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+110;eterna;;42;128;124;90;72;18;6;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+111;eterna;;43;134;134;90;72;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+112;eterna;;44;134;134;90;72;19;4;;17;8;Langarm;COMFORT FIT;;;;0;;20130407
+113;eterna;;45;148;148;90;72;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+114;eterna;;46;148;148;90;72;20;2;;18;6;Langarm;COMFORT FIT;;;;0;;20130407
+115;eterna;;47;154;154;90;72;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+116;eterna;;48;154;154;90;72;21;;18;6;Langarm;COMFORT FIT;;;;0;;;20130407
+117;eterna;;49;160;160;95;72;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+118;eterna;;50;160;160;95;72;21;8;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+119;eterna;;51;168;168;95;72;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+120;eterna;;52;168;168;95;72;22;6;;19;4;Langarm;COMFORT FIT;;;;0;;20130407
+121;eterna;;53;176;176;95;72;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+122;eterna;;54;176;176;95;72;23;4;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+123;eterna;;55;184;184;95;72;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+124;eterna;;56;184;184;95;72;24;2;;20;2;Langarm;COMFORT FIT;;;;0;;20130407
+125;eterna;;57;192;192;95;72;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+126;eterna;;58;192;192;95;72;25;;21;Langarm;COMFORT FIT;;;;0;;;;20130407
+127;eterna;;59;200;200;95;72;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+128;eterna;;60;200;200;95;72;25;8;;21;Langarm;COMFORT FIT;;;;0;;;20130407
+129;eterna;;37;110;102;80;65/67;16;2;;16;2;Langarm;MODERN FIT;;;;0;;20130407
+130;eterna;;38;110;102;80;65/68;16;2;;16;2;Langarm;MODERN FIT;;;;0;;20130407
+131;eterna;;39;116;106;80;65/69;17;;16;2;Langarm;MODERN FIT;;;;0;;;20130407
+132;eterna;;40;116;106;80;65/70;17;;16;2;Langarm;MODERN FIT;;;;0;;;20130407
+133;eterna;;41;122;114;80;65/71;17;8;;17;Langarm;MODERN FIT;;;;0;;;20130407
+134;eterna;;42;122;114;80;65/72;17;8;;17;Langarm;MODERN FIT;;;;0;;;20130407
+135;eterna;;43;132;126;82;65/73;18;6;;17;Langarm;MODERN FIT;;;;0;;;20130407
+136;eterna;;44;132;126;82;65/74;18;6;;17;Langarm;MODERN FIT;;;;0;;;20130407
+137;eterna;;45;144;136;85;65/75;19;4;;17;8;Langarm;MODERN FIT;;;;0;;20130407
+138;eterna;;46;144;136;85;65/76;19;4;;17;8;Langarm;MODERN FIT;;;;0;;20130407
+139;eterna;;37;110;102;85;68;16;2;;16;2;Langarm;MODERN FIT;;;;0;;20130407
+140;eterna;;38;110;102;85;68;16;2;;16;2;Langarm;MODERN FIT;;;;0;;20130407
+141;eterna;;39;116;106;85;68;17;;16;2;Langarm;MODERN FIT;;;;0;;;20130407
+142;eterna;;40;116;106;85;68;17;;16;2;Langarm;MODERN FIT;;;;0;;;20130407
+143;eterna;;41;122;114;85;68;17;8;;17;Langarm;MODERN FIT;;;;0;;;20130407
+144;eterna;;42;122;114;85;68;17;8;;17;Langarm;MODERN FIT;;;;0;;;20130407
+145;eterna;;43;132;126;85;68;18;6;;17;Langarm;MODERN FIT;;;;0;;;20130407
+146;eterna;;44;132;126;85;68;18;6;;17;Langarm;MODERN FIT;;;;0;;;20130407
+147;eterna;;45;144;136;90;68;19;4;;17;8;Langarm;MODERN FIT;;;;0;;20130407
+148;eterna;;46;144;136;90;68;19;4;;17;8;Langarm;MODERN FIT;;;;0;;20130407
+149;eterna;;37;110;102;90;72;16;2;;16;2;Langarm;MODERN FIT;;;;0;;20130407
+150;eterna;;38;110;102;90;72;16;2;;16;2;Langarm;MODERN FIT;;;;0;;20130407
+151;eterna;;39;116;106;90;72;17;;16;2;Langarm;MODERN FIT;;;;0;;;20130407
+152;eterna;;40;116;106;90;72;17;;16;2;Langarm;MODERN FIT;;;;0;;;20130407
+153;eterna;;41;122;114;90;72;17;8;;17;Langarm;MODERN FIT;;;;0;;;20130407
+154;eterna;;42;122;114;90;72;17;8;;17;Langarm;MODERN FIT;;;;0;;;20130407
+155;eterna;;43;132;126;90;72;18;6;;17;Langarm;MODERN FIT;;;;0;;;20130407
+156;eterna;;44;132;126;90;72;18;6;;17;Langarm;MODERN FIT;;;;0;;;20130407
+157;eterna;;45;144;136;90;72;19;4;;17;8;Langarm;MODERN FIT;;;;0;;20130407
+158;eterna;;46;144;136;90;72;19;4;;17;8;Langarm;MODERN FIT;;;;0;;20130407
+159;eterna;;37;100;92;80;24;16;2;;16;2;Halbarm;SLIM-FIT;;;;0;;20130407
+160;eterna;;38;100;92;80;24;16;2;;16;2;Halbarm;SLIM-FIT;;;;0;;20130407
+161;eterna;;39;108;98;80;24;17;;16;2;Halbarm;SLIM-FIT;;;;0;;;20130407
+162;eterna;;40;108;98;80;24;17;;16;2;Halbarm;SLIM-FIT;;;;0;;;20130407
+163;eterna;;41;116;104;80;24;17;8;;17;Halbarm;SLIM-FIT;;;;0;;;20130407
+164;eterna;;42;116;104;80;24;17;8;;17;Halbarm;SLIM-FIT;;;;0;;;20130407
+165;eterna;;43;124;112;82;24;18;6;;17;Halbarm;SLIM-FIT;;;;0;;;20130407
+166;eterna;;44;124;112;82;24;18;6;;17;Halbarm;SLIM-FIT;;;;0;;;20130407
+167;Van Laack;;37;110;98;80;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+168;Van Laack;;38;110;98;80;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+169;Van Laack;;39;116;104;81;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+170;Van Laack;;40;116;104;81;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+171;Van Laack;;41;122;110;82;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+172;Van Laack;;42;122;110;82;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+173;Van Laack;;43;130;120;84;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+174;Van Laack;;44;130;120;84;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+175;Van Laack;;45;138;130;86;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+176;Van Laack;;46;138;130;86;5;65;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+177;Van Laack;;37;110;98;80;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+178;Van Laack;;38;110;98;80;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+179;Van Laack;;39;116;104;81;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+180;Van Laack;;40;116;104;81;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+181;Van Laack;;41;122;110;82;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+182;Van Laack;;42;122;110;82;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+183;Van Laack;;43;130;120;84;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+184;Van Laack;;44;130;120;84;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+185;Van Laack;;45;138;130;86;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+186;Van Laack;;46;138;130;86;5;68;;;;Langarm;Business/Tailer Fit;;;;;;;20130407
+187;Van Laack;;37;110;98;80;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+188;Van Laack;;38;110;98;80;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+189;Van Laack;;39;116;104;81;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+190;Van Laack;;40;116;104;81;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+191;Van Laack;;41;122;110;82;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+192;Van Laack;;42;122;110;82;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+193;Van Laack;;43;130;120;84;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+194;Van Laack;;44;130;120;84;5;23;5;;;;Halbarm;Business/Tailer Fit;;;;;;20130407
+195;Van Laack;;45;138;130;86;5;25;;;;Halbarm;Business/Tailer Fit;;;;;;;20130407
+196;Van Laack;;46;138;130;86;5;25;;;;Halbarm;Business/Tailer Fit;;;;;;;20130407
+197;Van Laack;;37;112;106;80;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+198;Van Laack;;37;112;106;80;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+199;Van Laack;;38;112;106;80;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+200;Van Laack;;38;112;106;80;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+201;Van Laack;;39;118;112;81;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+202;Van Laack;;39;118;112;81;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+203;Van Laack;;40;118;112;81;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+204;Van Laack;;40;118;112;81;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+205;Van Laack;;41;124;118;82;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+206;Van Laack;;41;124;118;82;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+207;Van Laack;;42;124;118;82;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+208;Van Laack;;42;124;118;82;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+209;Van Laack;;43;132;130;84;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+210;Van Laack;;43;132;130;84;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+211;Van Laack;;44;132;130;84;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+212;Van Laack;;44;132;130;84;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+213;Van Laack;;45;140;144;86;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+214;Van Laack;;45;140;144;86;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+215;Van Laack;;46;140;144;86;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+216;Van Laack;;46;140;144;86;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+217;Van Laack;;47;148;154;88;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+218;Van Laack;;47;148;154;88;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+219;Van Laack;;48;148;154;88;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+220;Van Laack;;48;148;154;88;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+221;Van Laack;;49;152;164;90;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+222;Van Laack;;49;152;164;90;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+223;Van Laack;;50;152;164;90;5;65;;;;Langarm;Business Shirt;;;;;;;20130407
+224;Van Laack;;50;152;164;90;5;68;;;;Langarm;Business Shirt;;;;;;;20130407
+225;Van Laack;;37;102;92;80;5;65;;;;Langarm;Slimfit;;;;;;;20130407
+226;Van Laack;;37;102;92;80;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+227;Van Laack;;38;102;92;80;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+228;Van Laack;;38;102;92;80;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+229;Van Laack;;39;108;98;81;5;65;;;;Langarm;Slimfit;;;;;;;20130407
+230;Van Laack;;39;108;98;81;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+231;Van Laack;;40;108;98;81;5;65;;;;Langarm;Slimfit;;;;;;;20130407
+232;Van Laack;;40;108;98;81;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+233;Van Laack;;41;114;104;82;5;65;;;;Langarm;Slimfit;;;;;;;20130407
+234;Van Laack;;41;114;104;82;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+235;Van Laack;;42;114;104;82;5;65;;;;Langarm;Slimfit;;;;;;;20130407
+236;Van Laack;;42;114;104;82;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+237;Van Laack;;43;120;110;83;5;65;;;;Langarm;Slimfit;;;;;;;20130407
+238;Van Laack;;43;120;110;83;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+239;Van Laack;;44;120;110;83;5;65;;;;Langarm;Slimfit;;;;;;;20130407
+240;Van Laack;;44;120;110;83;5;68;;;;Langarm;Slimfit;;;;;;;20130407
+241;Olymp;;37;114;102;82;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+242;Olymp;;38;114;102;82;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+243;Olymp;;39;120;106;82;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+244;Olymp;;40;120;106;82;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+245;Olymp;;41;126;112;82;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+246;Olymp;;42;126;112;82;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+247;Olymp;;43;132;122;85;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+248;Olymp;;44;132;122;85;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+249;Olymp;;45;138;130;85;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+250;Olymp;;46;138;130;85;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+251;Olymp;;47;144;136;90;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+252;Olymp;;48;144;136;90;12;;;;Kurzarm;modern fit;;;;;;;;20130407
+253;Olymp;;37;114;102;82;64;;;;Langarm;modern fit;;;;;;;;20130407
+254;Olymp;;38;114;102;82;64;;;;Langarm;modern fit;;;;;;;;20130407
+255;Olymp;;39;120;106;82;64;;;;Langarm;modern fit;;;;;;;;20130407
+256;Olymp;;40;120;106;82;64;;;;Langarm;modern fit;;;;;;;;20130407
+257;Olymp;;41;126;112;82;64;;;;Langarm;modern fit;;;;;;;;20130407
+258;Olymp;;42;126;112;82;64;;;;Langarm;modern fit;;;;;;;;20130407
+259;Olymp;;43;132;122;85;64;;;;Langarm;modern fit;;;;;;;;20130407
+260;Olymp;;44;132;122;85;64;;;;Langarm;modern fit;;;;;;;;20130407
+261;Olymp;;45;138;130;85;64;;;;Langarm;modern fit;;;;;;;;20130407
+262;Olymp;;46;138;130;85;64;;;;Langarm;modern fit;;;;;;;;20130407
+263;Olymp;;47;144;136;90;64;;;;Langarm;modern fit;;;;;;;;20130407
+264;Olymp;;48;144;136;90;64;;;;Langarm;modern fit;;;;;;;;20130407
+265;Olymp;;37;114;102;82;58;;;;Langarm;modern fit;;;;;;;;20130407
+266;Olymp;;38;114;102;82;58;;;;Langarm;modern fit;;;;;;;;20130407
+267;Olymp;;39;120;106;82;58;;;;Langarm;modern fit;;;;;;;;20130407
+268;Olymp;;40;120;106;82;58;;;;Langarm;modern fit;;;;;;;;20130407
+269;Olymp;;41;126;112;82;58;;;;Langarm;modern fit;;;;;;;;20130407
+270;Olymp;;42;126;112;82;58;;;;Langarm;modern fit;;;;;;;;20130407
+271;Olymp;;43;132;122;85;58;;;;Langarm;modern fit;;;;;;;;20130407
+272;Olymp;;44;132;122;85;58;;;;Langarm;modern fit;;;;;;;;20130407
+273;Olymp;;45;138;130;85;58;;;;Langarm;modern fit;;;;;;;;20130407
+274;Olymp;;46;138;130;85;58;;;;Langarm;modern fit;;;;;;;;20130407
+275;Olymp;;47;144;136;90;58;;;;Langarm;modern fit;;;;;;;;20130407
+276;Olymp;;48;144;136;90;58;;;;Langarm;modern fit;;;;;;;;20130407
+277;Olymp;;37;114;102;85;69;;;;Langarm;modern fit;;;;;;;;20130407
+278;Olymp;;38;114;102;85;69;;;;Langarm;modern fit;;;;;;;;20130407
+279;Olymp;;39;120;106;85;69;;;;Langarm;modern fit;;;;;;;;20130407
+280;Olymp;;40;120;106;85;69;;;;Langarm;modern fit;;;;;;;;20130407
+281;Olymp;;41;126;112;85;69;;;;Langarm;modern fit;;;;;;;;20130407
+282;Olymp;;42;126;112;85;69;;;;Langarm;modern fit;;;;;;;;20130407
+283;Olymp;;43;132;122;90;69;;;;Langarm;modern fit;;;;;;;;20130407
+284;Olymp;;44;132;122;90;69;;;;Langarm;modern fit;;;;;;;;20130407
+285;Olymp;;45;138;130;90;69;;;;Langarm;modern fit;;;;;;;;20130407
+286;Olymp;;46;138;130;90;69;;;;Langarm;modern fit;;;;;;;;20130407
+287;Olymp;;47;144;136;90;69;;;;Langarm;modern fit;;;;;;;;20130407
+288;Olymp;;48;144;136;90;69;;;;Langarm;modern fit;;;;;;;;20130407
+289;Olymp;;37;114;102;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+290;Olymp;;38;114;102;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+291;Olymp;;39;120;106;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+292;Olymp;;40;120;106;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+293;Olymp;;41;126;112;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+294;Olymp;;42;126;112;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+295;Olymp;;43;132;122;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+296;Olymp;;44;132;122;90;72;;;;Langarm;modern fit;;;;;;;;20130407
+297;Olymp;;45;138;130;95;72;;;;Langarm;modern fit;;;;;;;;20130407
+298;Olymp;;46;138;130;95;72;;;;Langarm;modern fit;;;;;;;;20130407
+299;Olymp;;47;144;136;95;72;;;;Langarm;modern fit;;;;;;;;20130407
+300;Olymp;;48;144;136;95;72;;;;Langarm;modern fit;;;;;;;;20130407
+301;Olymp;;36;98;86;76;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+302;Olymp;;37;104;92;78;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+303;Olymp;;38;104;92;78;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+304;Olymp;;39;110;98;80;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+305;Olymp;;40;110;98;80;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+306;Olymp;;41;116;104;80;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+307;Olymp;;42;116;104;80;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+308;Olymp;;43;124;112;83;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+309;Olymp;;44;124;112;83;12;;;;Kurzarm;bodyfit;;;;;;;;20130407
+310;Olymp;;36;98;86;76;64;;;;langarm;bodyfit;;;;;;;;20130407
+311;Olymp;;37;104;92;78;64;;;;langarm;bodyfit;;;;;;;;20130407
+312;Olymp;;38;104;92;78;64;;;;langarm;bodyfit;;;;;;;;20130407
+313;Olymp;;39;110;98;80;64;;;;langarm;bodyfit;;;;;;;;20130407
+314;Olymp;;40;110;98;80;64;;;;langarm;bodyfit;;;;;;;;20130407
+315;Olymp;;41;116;104;80;64;;;;langarm;bodyfit;;;;;;;;20130407
+316;Olymp;;42;116;104;80;64;;;;langarm;bodyfit;;;;;;;;20130407
+317;Olymp;;43;124;112;83;64;;;;langarm;bodyfit;;;;;;;;20130407
+318;Olymp;;44;124;112;83;64;;;;langarm;bodyfit;;;;;;;;20130407
+319;Olymp;;37;104;92;81;69;;;;langarm;bodyfit;;;;;;;;20130407
+320;Olymp;;38;104;92;81;69;;;;langarm;bodyfit;;;;;;;;20130407
+321;Olymp;;39;110;98;83;69;;;;langarm;bodyfit;;;;;;;;20130407
+322;Olymp;;40;110;98;83;69;;;;langarm;bodyfit;;;;;;;;20130407
+323;Olymp;;41;116;104;83;69;;;;langarm;bodyfit;;;;;;;;20130407
+324;Olymp;;42;116;104;83;69;;;;langarm;bodyfit;;;;;;;;20130407
+325;Olymp;;43;124;112;87;69;;;;langarm;bodyfit;;;;;;;;20130407
+326;Olymp;;44;124;112;87;69;;;;langarm;bodyfit;;;;;;;;20130407
+327;Olymp;;37;110;104;82;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+328;Olymp;;38;110;104;82;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+329;Olymp;;39;116;110;82;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+330;Olymp;;40;116;110;82;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+331;Olymp;;41;124;118;82;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+332;Olymp;;42;124;118;82;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+333;Olymp;;43;132;128;85;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+334;Olymp;;44;132;128;85;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+335;Olymp;;45;140;138;85;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+336;Olymp;;46;140;138;85;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+337;Olymp;;47;146;148;90;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+338;Olymp;;48;146;148;90;12;;;;Kurzarm;regular fit;;;;;;;;20130407
+339;Olymp;;37;110;104;82;64;;;;Langarm;regular fit;;;;;;;;20130407
+340;Olymp;;38;110;104;82;64;;;;Langarm;regular fit;;;;;;;;20130407
+341;Olymp;;39;116;110;82;64;;;;Langarm;regular fit;;;;;;;;20130407
+342;Olymp;;40;116;110;82;64;;;;Langarm;regular fit;;;;;;;;20130407
+343;Olymp;;41;124;118;82;64;;;;Langarm;regular fit;;;;;;;;20130407
+344;Olymp;;42;124;118;82;64;;;;Langarm;regular fit;;;;;;;;20130407
+345;Olymp;;43;132;128;85;64;;;;Langarm;regular fit;;;;;;;;20130407
+346;Olymp;;44;132;128;85;64;;;;Langarm;regular fit;;;;;;;;20130407
+347;Olymp;;45;140;138;85;64;;;;Langarm;regular fit;;;;;;;;20130407
+348;Olymp;;46;140;138;85;64;;;;Langarm;regular fit;;;;;;;;20130407
+349;Olymp;;47;146;148;90;64;;;;Langarm;regular fit;;;;;;;;20130407
+350;Olymp;;48;146;148;90;64;;;;Langarm;regular fit;;;;;;;;20130407
+351;Olymp;;37;114;108;82;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+352;Olymp;;38;114;108;82;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+353;Olymp;;39;122;116;82;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+354;Olymp;;40;122;116;82;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+355;Olymp;;41;128;124;82;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+356;Olymp;;42;128;124;82;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+357;Olymp;;43;136;136;85;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+358;Olymp;;44;136;136;85;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+359;Olymp;;45;148;148;85;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+360;Olymp;;46;148;148;85;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+361;Olymp;;47;154;154;90;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+362;Olymp;;48;154;154;90;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+363;Olymp;;49;160;160;95;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+364;Olymp;;50;160;160;95;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+365;Olymp;;52;168;168;95;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+366;Olymp;;54;176;176;95;12;;;;Kurzarm;comfort fit;;;;;;;;20130407
+367;Olymp;;37;114;108;82;64;;;;Langarm;comfort fit;;;;;;;;20130407
+368;Olymp;;38;114;108;82;64;;;;Langarm;comfort fit;;;;;;;;20130407
+369;Olymp;;39;122;116;82;64;;;;Langarm;comfort fit;;;;;;;;20130407
+370;Olymp;;40;122;116;82;64;;;;Langarm;comfort fit;;;;;;;;20130407
+371;Olymp;;41;128;124;82;64;;;;Langarm;comfort fit;;;;;;;;20130407
+372;Olymp;;42;128;124;82;64;;;;Langarm;comfort fit;;;;;;;;20130407
+373;Olymp;;43;136;136;85;64;;;;Langarm;comfort fit;;;;;;;;20130407
+374;Olymp;;44;136;136;85;64;;;;Langarm;comfort fit;;;;;;;;20130407
+375;Olymp;;45;148;148;85;64;;;;Langarm;comfort fit;;;;;;;;20130407
+376;Olymp;;46;148;148;85;64;;;;Langarm;comfort fit;;;;;;;;20130407
+377;Olymp;;47;154;154;90;64;;;;Langarm;comfort fit;;;;;;;;20130407
+378;Olymp;;48;154;154;90;64;;;;Langarm;comfort fit;;;;;;;;20130407
+379;Olymp;;49;160;160;95;64;;;;Langarm;comfort fit;;;;;;;;20130407
+380;Olymp;;50;160;160;95;64;;;;Langarm;comfort fit;;;;;;;;20130407
+381;Olymp;;52;168;168;95;64;;;;Langarm;comfort fit;;;;;;;;20130407
+382;Olymp;;54;176;176;95;64;;;;Langarm;comfort fit;;;;;;;;20130407
+383;Olymp;;37;114;108;82;58;;;;Langarm;comfort fit;;;;;;;;20130407
+384;Olymp;;38;114;108;82;58;;;;Langarm;comfort fit;;;;;;;;20130407
+385;Olymp;;39;122;116;82;58;;;;Langarm;comfort fit;;;;;;;;20130407
+386;Olymp;;40;122;116;82;58;;;;Langarm;comfort fit;;;;;;;;20130407
+387;Olymp;;41;128;124;82;58;;;;Langarm;comfort fit;;;;;;;;20130407
+388;Olymp;;42;128;124;82;58;;;;Langarm;comfort fit;;;;;;;;20130407
+389;Olymp;;43;136;136;85;58;;;;Langarm;comfort fit;;;;;;;;20130407
+390;Olymp;;44;136;136;85;58;;;;Langarm;comfort fit;;;;;;;;20130407
+391;Olymp;;45;148;148;85;58;;;;Langarm;comfort fit;;;;;;;;20130407
+392;Olymp;;46;148;148;85;58;;;;Langarm;comfort fit;;;;;;;;20130407
+393;Olymp;;47;154;154;90;58;;;;Langarm;comfort fit;;;;;;;;20130407
+394;Olymp;;48;154;154;90;58;;;;Langarm;comfort fit;;;;;;;;20130407
+395;Olymp;;49;160;160;95;58;;;;Langarm;comfort fit;;;;;;;;20130407
+396;Olymp;;50;160;160;95;58;;;;Langarm;comfort fit;;;;;;;;20130407
+397;Olymp;;52;168;168;95;58;;;;Langarm;comfort fit;;;;;;;;20130407
+398;Olymp;;54;176;176;95;58;;;;Langarm;comfort fit;;;;;;;;20130407
+399;Olymp;;37;114;108;85;69;;;;Langarm;comfort fit;;;;;;;;20130407
+400;Olymp;;38;114;108;85;69;;;;Langarm;comfort fit;;;;;;;;20130407
+401;Olymp;;39;122;116;85;69;;;;Langarm;comfort fit;;;;;;;;20130407
+402;Olymp;;40;122;116;85;69;;;;Langarm;comfort fit;;;;;;;;20130407
+403;Olymp;;41;128;124;85;69;;;;Langarm;comfort fit;;;;;;;;20130407
+404;Olymp;;42;128;124;85;69;;;;Langarm;comfort fit;;;;;;;;20130407
+405;Olymp;;43;136;136;90;69;;;;Langarm;comfort fit;;;;;;;;20130407
+406;Olymp;;44;136;136;90;69;;;;Langarm;comfort fit;;;;;;;;20130407
+407;Olymp;;45;148;148;90;69;;;;Langarm;comfort fit;;;;;;;;20130407
+408;Olymp;;46;148;148;90;69;;;;Langarm;comfort fit;;;;;;;;20130407
+409;Olymp;;47;154;154;90;69;;;;Langarm;comfort fit;;;;;;;;20130407
+410;Olymp;;48;154;154;90;69;;;;Langarm;comfort fit;;;;;;;;20130407
+411;Olymp;;49;160;160;95;69;;;;Langarm;comfort fit;;;;;;;;20130407
+412;Olymp;;50;160;160;95;69;;;;Langarm;comfort fit;;;;;;;;20130407
+413;Olymp;;52;168;168;95;69;;;;Langarm;comfort fit;;;;;;;;20130407
+414;Olymp;;54;176;176;95;69;;;;Langarm;comfort fit;;;;;;;;20130407
+415;Van Laack;;37;102;92;80;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+416;Van Laack;;39;108;98;81;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+417;Van Laack;;40;108;98;81;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+418;Van Laack;;41;114;104;82;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+419;Van Laack;;42;114;104;82;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+420;Van Laack;;43;120;110;83;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+421;Van Laack;;44;120;110;83;5;72;;;;Langarm;Slimfit;;;;;;;20130407
+422;Seidensticker;;35;96;82;76;67;5;14;1;41;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+423;Seidensticker;;36;96;82;76;67;5;14;1;41;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+424;Seidensticker;;37;104;90;77;67;5;14;8;43;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+425;Seidensticker;;38;104;90;77;67;5;14;8;43;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+426;Seidensticker;;39;112;98;78;67;5;15;5;45;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+427;Seidensticker;;40;112;98;78;67;5;15;5;45;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+428;Seidensticker;;41;118;104;79;67;5;16;2;47;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+429;Seidensticker;;42;118;104;79;67;5;16;2;47;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+430;Seidensticker;;43;126;112;80;67;5;16;8;49;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+431;Seidensticker;;44;126;112;80;67;5;16;8;49;;;Schnitt T 98  Uno Superslim;;;;;;20130407
+432;Seidensticker;;45;134;120;81;68;5;17;1;50;5;;;Schnitt T 98  Uno Superslim;;;;;20130407
+433;Seidensticker;;46;134;120;81;68;5;17;1;50;5;;;Schnitt T 98  Uno Superslim;;;;;20130407
+434;Seidensticker;;37;108;94;77;;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+435;Seidensticker;;38;108;94;77;;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+436;Seidensticker;;39;114;102;78;;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+437;Seidensticker;;40;114;102;78;;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+438;Seidensticker;;41;122;108;79;;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+439;Seidensticker;;42;122;108;79;;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+440;Seidensticker;;43;128;114;80;;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+441;Seidensticker;;44;128;114;80;;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+442;Seidensticker;;45;134;120;81;;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+443;Seidensticker;;46;134;120;81;;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+444;Seidensticker;;47;138;128;82;;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+445;Seidensticker;;48;138;128;82;;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+446;Seidensticker;;49;144;136;83;;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+447;Seidensticker;;50;144;136;83;;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+448;Seidensticker;;51;148;144;84;;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+449;Seidensticker;;52;148;144;84;;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+450;Seidensticker;;53;152;152;85;;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+451;Seidensticker;;54;152;152;85;;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+452;Seidensticker;;37;108;94;82;;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+453;Seidensticker;;38;108;94;82;;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+454;Seidensticker;;39;114;102;83;;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+455;Seidensticker;;40;114;102;83;;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+456;Seidensticker;;41;122;108;84;;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+457;Seidensticker;;42;122;108;84;;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+458;Seidensticker;;43;128;114;85;;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+459;Seidensticker;;44;128;114;85;;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+460;Seidensticker;;45;134;120;86;;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+461;Seidensticker;;46;134;120;86;;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+462;Seidensticker;;47;138;128;87;;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+463;Seidensticker;;48;138;128;87;;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+464;Seidensticker;;49;144;136;88;;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+465;Seidensticker;;50;144;136;88;;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+466;Seidensticker;;51;148;144;89;;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+467;Seidensticker;;52;148;144;89;;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+468;Seidensticker;;53;152;152;90;;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+469;Seidensticker;;54;152;152;90;;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+470;Seidensticker;;37;108;94;82;71;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+471;Seidensticker;;38;108;94;82;71;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+472;Seidensticker;;39;114;102;83;71;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+473;Seidensticker;;40;114;102;83;71;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+474;Seidensticker;;41;122;108;84;71;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+475;Seidensticker;;42;122;108;84;71;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+476;Seidensticker;;43;128;114;85;71;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+477;Seidensticker;;44;128;114;85;71;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+478;Seidensticker;;45;134;120;86;71;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+479;Seidensticker;;46;134;120;86;71;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+480;Seidensticker;;47;138;128;87;71;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+481;Seidensticker;;48;138;128;87;71;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+482;Seidensticker;;49;144;136;88;71;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+483;Seidensticker;;50;144;136;88;71;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+484;Seidensticker;;51;148;144;89;71;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+485;Seidensticker;;52;148;144;89;71;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+486;Seidensticker;;53;152;152;90;71;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+487;Seidensticker;;54;152;152;90;71;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+488;Seidensticker;;37;108;94;77;25;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+489;Seidensticker;;38;108;94;77;25;15;2;44;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+490;Seidensticker;;39;114;102;78;25;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+491;Seidensticker;;40;114;102;78;25;16;46;;;Schnitt T 102 Schwarze Rose City;;;;;;;;20130407
+492;Seidensticker;;41;122;108;79;25;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+493;Seidensticker;;42;122;108;79;25;16;7;48;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+494;Seidensticker;;43;128;114;80;25;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+495;Seidensticker;;44;128;114;80;25;17;5;50;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+496;Seidensticker;;45;134;120;81;25;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+497;Seidensticker;;46;134;120;81;25;17;8;51;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+498;Seidensticker;;47;138;128;82;25;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+499;Seidensticker;;48;138;128;82;25;18;52;5;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+500;Seidensticker;;49;144;136;83;25;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+501;Seidensticker;;50;144;136;83;25;18;3;53;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+502;Seidensticker;;51;148;144;84;25;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+503;Seidensticker;;52;148;144;84;25;18;5;54;5;;;Schnitt T 102 Schwarze Rose City;;;;;;20130407
+504;Seidensticker;;53;152;152;85;25;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+505;Seidensticker;;54;152;152;85;25;18;8;56;;;Schnitt T 102 Schwarze Rose City;;;;;;;20130407
+506;Seidensticker;;37;108;94;75;5;24;15;2;44;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+507;Seidensticker;;38;108;94;75;5;24;15;2;44;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+508;Seidensticker;;39;114;102;76;5;24;16;46;;;Schnitt T 102 Schwarze Rose Casual;;;;;;;20130407
+509;Seidensticker;;40;114;102;76;5;24;16;46;;;Schnitt T 102 Schwarze Rose Casual;;;;;;;20130407
+510;Seidensticker;;41;122;108;77;5;24;16;7;48;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+511;Seidensticker;;42;122;108;77;5;24;16;7;48;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+512;Seidensticker;;43;128;114;78;5;24;17;5;50;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+513;Seidensticker;;44;128;114;78;5;24;17;5;50;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+514;Seidensticker;;45;134;120;79;5;24;17;8;51;5;;;Schnitt T 102 Schwarze Rose Casual;;;;;20130407
+515;Seidensticker;;46;134;120;79;5;24;17;8;51;5;;;Schnitt T 102 Schwarze Rose Casual;;;;;20130407
+516;Seidensticker;;37;108;94;75;5;67;15;2;44;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+517;Seidensticker;;38;108;94;75;5;67;15;2;44;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+518;Seidensticker;;39;114;102;76;5;67;16;46;;;Schnitt T 102 Schwarze Rose Casual;;;;;;;20130407
+519;Seidensticker;;40;114;102;76;5;67;16;46;;;Schnitt T 102 Schwarze Rose Casual;;;;;;;20130407
+520;Seidensticker;;41;122;108;77;5;67;16;7;48;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+521;Seidensticker;;42;122;108;77;5;67;16;7;48;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+522;Seidensticker;;43;128;114;78;5;67;17;5;50;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+523;Seidensticker;;44;128;114;78;5;67;17;5;50;;;Schnitt T 102 Schwarze Rose Casual;;;;;;20130407
+524;Seidensticker;;45;134;120;79;5;67;17;8;51;5;;;Schnitt T 102 Schwarze Rose Casual;;;;;20130407
+525;Seidensticker;;46;134;120;79;5;67;17;8;51;5;;;Schnitt T 102 Schwarze Rose Casual;;;;;20130407
+526;Seidensticker;;37;110;100;82;66;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+527;Seidensticker;;38;110;100;82;66;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+528;Seidensticker;;39;116;108;82;66;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+529;Seidensticker;;40;116;108;82;66;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+530;Seidensticker;;41;124;118;82;66;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+531;Seidensticker;;42;124;118;82;66;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+532;Seidensticker;;43;134;130;85;65;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+533;Seidensticker;;44;134;130;85;65;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+534;Seidensticker;;45;144;142;90;65;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+535;Seidensticker;;46;144;142;90;65;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+536;Seidensticker;;47;150;154;90;65;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+537;Seidensticker;;48;150;154;90;65;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+538;Seidensticker;;49;156;162;90;65;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+539;Seidensticker;;50;156;162;90;65;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+540;Seidensticker;;51;160;168;90;65;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+541;Seidensticker;;52;160;168;90;65;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+542;Seidensticker;;53;164;172;90;65;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+543;Seidensticker;;54;164;172;90;65;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+544;Seidensticker;;37;110;100;87;70;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+545;Seidensticker;;38;110;100;87;70;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+546;Seidensticker;;39;116;108;87;70;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+547;Seidensticker;;40;116;108;87;70;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+548;Seidensticker;;41;124;118;87;70;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+549;Seidensticker;;42;124;118;87;70;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+550;Seidensticker;;43;134;130;90;69;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+551;Seidensticker;;44;134;130;90;69;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+552;Seidensticker;;45;144;142;95;69;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+553;Seidensticker;;46;144;142;95;69;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+554;Seidensticker;;47;150;154;95;69;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+555;Seidensticker;;48;150;154;95;69;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+556;Seidensticker;;49;156;162;95;69;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+557;Seidensticker;;50;156;162;95;69;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+558;Seidensticker;;51;160;168;95;69;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+559;Seidensticker;;52;160;168;95;69;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+560;Seidensticker;;53;164;172;95;69;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+561;Seidensticker;;54;164;172;95;69;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+562;Seidensticker;;37;110;100;82;66;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+563;Seidensticker;;38;110;100;82;66;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+564;Seidensticker;;39;116;108;82;66;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+565;Seidensticker;;40;116;108;82;66;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+566;Seidensticker;;41;124;118;82;66;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+567;Seidensticker;;42;124;118;82;66;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+568;Seidensticker;;43;134;130;82;65;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+569;Seidensticker;;44;134;130;82;65;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+570;Seidensticker;;45;144;142;82;65;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+571;Seidensticker;;46;144;142;82;65;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+572;Seidensticker;;47;150;154;82;65;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+573;Seidensticker;;48;150;154;82;65;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+574;Seidensticker;;49;156;162;82;65;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+575;Seidensticker;;50;156;162;82;65;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+576;Seidensticker;;51;160;168;82;65;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+577;Seidensticker;;52;160;168;82;65;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+578;Seidensticker;;53;164;172;82;65;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+579;Seidensticker;;54;164;172;82;65;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+580;Seidensticker;;37;110;100;82;28;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+581;Seidensticker;;38;110;100;82;28;15;8;45;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+582;Seidensticker;;39;116;108;82;28;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+583;Seidensticker;;40;116;108;82;28;16;5;47;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+584;Seidensticker;;41;124;118;82;28;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+585;Seidensticker;;42;124;118;82;28;17;5;50;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+586;Seidensticker;;43;134;130;85;28;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+587;Seidensticker;;44;134;130;85;28;18;8;53;;;Schnitt T 108 Splendesto;;;;;;;20130407
+588;Seidensticker;;45;144;142;90;28;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+589;Seidensticker;;46;144;142;90;28;19;5;55;5;;;Schnitt T 108 Splendesto;;;;;;20130407
+590;Seidensticker;;47;150;154;90;28;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+591;Seidensticker;;48;150;154;90;28;20;5;58;;;Schnitt T 108 Splendesto;;;;;;;20130407
+592;Seidensticker;;49;156;162;90;28;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+593;Seidensticker;;50;156;162;90;28;21;3;60;;;Schnitt T 108 Splendesto;;;;;;;20130407
+594;Seidensticker;;51;160;168;90;28;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+595;Seidensticker;;52;160;168;90;28;22;62;;;Schnitt T 108 Splendesto;;;;;;;;20130407
+596;Seidensticker;;53;164;172;90;28;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+597;Seidensticker;;54;164;172;90;28;22;8;64;;;Schnitt T 108 Splendesto;;;;;;;20130407
+598;Seidensticker;;37;110;100;82;66;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+599;Seidensticker;;38;110;100;82;66;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+600;Seidensticker;;39;116;108;82;66;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+601;Seidensticker;;40;116;108;82;66;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+602;Seidensticker;;41;124;118;82;66;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+603;Seidensticker;;42;124;118;82;66;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+604;Seidensticker;;43;134;130;85;65;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+605;Seidensticker;;44;134;130;85;65;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+606;Seidensticker;;45;144;142;85;65;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+607;Seidensticker;;46;144;142;85;65;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+608;Seidensticker;;47;150;154;85;65;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+609;Seidensticker;;48;150;154;85;65;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+610;Seidensticker;;49;156;162;85;65;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+611;Seidensticker;;50;156;162;85;65;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+612;Seidensticker;;51;160;168;85;65;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+613;Seidensticker;;52;160;168;85;65;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+614;Seidensticker;;53;164;172;85;65;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+615;Seidensticker;;54;164;172;85;65;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+616;Seidensticker;;37;110;100;87;70;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+617;Seidensticker;;38;110;100;87;70;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+618;Seidensticker;;39;116;108;87;70;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+619;Seidensticker;;40;116;108;87;70;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+620;Seidensticker;;41;124;118;87;70;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+621;Seidensticker;;42;124;118;87;70;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+622;Seidensticker;;43;134;130;90;69;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+623;Seidensticker;;44;134;130;90;69;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+624;Seidensticker;;45;144;142;90;69;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+625;Seidensticker;;46;144;142;90;69;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+626;Seidensticker;;47;150;154;90;69;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+627;Seidensticker;;48;150;154;90;69;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+628;Seidensticker;;49;156;162;90;69;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+629;Seidensticker;;50;156;162;90;69;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+630;Seidensticker;;51;160;168;90;69;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+631;Seidensticker;;52;160;168;90;69;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+632;Seidensticker;;53;164;172;90;69;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+633;Seidensticker;;54;164;172;90;69;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+634;Seidensticker;;37;110;100;82;66;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+635;Seidensticker;;38;110;100;82;66;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+636;Seidensticker;;39;116;108;82;66;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+637;Seidensticker;;40;116;108;82;66;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+638;Seidensticker;;41;124;118;82;66;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+639;Seidensticker;;42;124;118;82;66;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+640;Seidensticker;;43;134;130;82;65;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+641;Seidensticker;;44;134;130;82;65;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+642;Seidensticker;;45;144;142;82;65;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+643;Seidensticker;;46;144;142;82;65;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+644;Seidensticker;;47;150;154;82;65;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+645;Seidensticker;;48;150;154;82;65;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+646;Seidensticker;;49;156;162;82;65;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+647;Seidensticker;;50;156;162;82;65;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+648;Seidensticker;;51;160;168;82;65;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+649;Seidensticker;;52;160;168;82;65;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+650;Seidensticker;;53;164;172;82;65;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+651;Seidensticker;;54;164;172;82;65;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+652;Seidensticker;;37;110;100;82;28;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+653;Seidensticker;;38;110;100;82;28;15;8;45;5;;;Schnitt T 108 Uno City;;;;;;20130407
+654;Seidensticker;;39;116;108;82;28;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+655;Seidensticker;;40;116;108;82;28;16;5;47;5;;;Schnitt T 108 Uno City;;;;;;20130407
+656;Seidensticker;;41;124;118;82;28;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+657;Seidensticker;;42;124;118;82;28;17;5;50;5;;;Schnitt T 108 Uno City;;;;;;20130407
+658;Seidensticker;;43;134;130;85;28;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+659;Seidensticker;;44;134;130;85;28;18;8;53;;;Schnitt T 108 Uno City;;;;;;;20130407
+660;Seidensticker;;45;144;142;90;28;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+661;Seidensticker;;46;144;142;90;28;19;5;55;5;;;Schnitt T 108 Uno City;;;;;;20130407
+662;Seidensticker;;47;150;154;90;28;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+663;Seidensticker;;48;150;154;90;28;20;5;58;;;Schnitt T 108 Uno City;;;;;;;20130407
+664;Seidensticker;;49;156;162;90;28;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+665;Seidensticker;;50;156;162;90;28;21;3;60;;;Schnitt T 108 Uno City;;;;;;;20130407
+666;Seidensticker;;51;160;168;90;28;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+667;Seidensticker;;52;160;168;90;28;22;62;;;Schnitt T 108 Uno City;;;;;;;;20130407
+668;Seidensticker;;53;164;172;90;28;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+669;Seidensticker;;54;164;172;90;28;22;8;64;;;Schnitt T 108 Uno City;;;;;;;20130407
+670;Seidensticker;;37;110;100;80;66;15;8;45;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+671;Seidensticker;;38;110;100;80;66;15;8;45;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+672;Seidensticker;;39;116;108;80;66;16;5;47;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+673;Seidensticker;;40;116;108;80;66;16;5;47;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+674;Seidensticker;;41;124;118;80;66;17;5;50;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+675;Seidensticker;;42;124;118;80;66;17;5;50;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+676;Seidensticker;;43;134;130;83;65;18;8;53;;;Schnitt T 108 Uno Casual;;;;;;;20130407
+677;Seidensticker;;44;134;130;83;65;18;8;53;;;Schnitt T 108 Uno Casual;;;;;;;20130407
+678;Seidensticker;;45;144;142;88;65;19;5;55;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+679;Seidensticker;;46;144;142;88;65;19;5;55;5;;;Schnitt T 108 Uno Casual;;;;;;20130407
+680;Seidensticker;;47;150;154;88;65;20;5;58;;;Schnitt T 108 Uno Casual;;;;;;;20130407
+681;Seidensticker;;48;150;154;88;65;20;5;58;;;Schnitt T 108 Uno Casual;;;;;;;20130407
+682;Seidensticker;;49;156;162;88;65;21;3;60;;;Schnitt T 108 Uno Casual;;;;;;;20130407
+683;Seidensticker;;50;156;162;88;65;21;3;60;;;Schnitt T 108 Uno Casual;;;;;;;20130407
+684;Seidensticker;;51;160;168;88;65;22;62;;;Schnitt T 108 Uno Casual;;;;;;;;20130407
+685;Seidensticker;;52;160;168;88;65;22;62;;;Schnitt T 108 Uno Casual;;;;;;;;20130407
+686;Seidensticker;;53;164;172;88;65;22;8;64;;;Schnitt T 108 Uno Casual;;;;;;;20130407
+687;Seidensticker;;54;164;172;88;65;22;8;64;;;Schnitt T 108 Uno Casual;;;;;;;20130407

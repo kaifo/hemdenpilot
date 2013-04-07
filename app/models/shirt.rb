@@ -1,3 +1,3 @@
 class Shirt < ActiveRecord::Base
-  attr_accessible :colour, :producer, :size
+  # attr_accessible :title, :body
 end

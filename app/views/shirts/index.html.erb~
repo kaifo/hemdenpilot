@@ -2,8 +2,16 @@
 	<div class="row-fluid">
 		<div class="span3">
       <div class="well sidebar-nav">
-				<h5>Alle Angaben gerundet in cm</h3>
         <ul class="nav nav-list">
+          <li>
+					<form class="form-search">
+						<%= form_tag results_path, :method => "get" do %>
+				  	<%= text_field_tag :producer, params[:producer], :style => "width:140px;", :placeholder => "Hersteller" %>
+		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
+						<% end %>
+					</form>
+					</li>
+					<li><h5>Alle Angaben gerundet in cm</h3></li>
           <li class="nav-header">Weiten</li>
           <li>
 					<form class="form-search">
@@ -144,7 +152,6 @@
     			          <li><a tabindex="-1" href="#">Gestreift</a></li>
     			          <li><a tabindex="-1" href="#">Kariert</a></li>
     							</ul>
-								<button type="submit" class="btn">direkt suchen</button>
     		      </div> <!-- /button group -->
 	     			</div>
     			</div> <!-- /row -->
