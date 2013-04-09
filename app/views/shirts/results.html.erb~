@@ -25,39 +25,6 @@
 <% end %>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-<table class="table">
-  <tr>
-    <th>Producer</th>
-    <th>Colour</th>
-    <th>Size</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @shirts.each do |shirt| %>
-  <tr>
-    <td><%= shirt.producer %></td>
-    <td><%= shirt.colour %></td>
-    <td><%= shirt.size %></td>
-    <td><%= link_to 'Anzeigen', shirt %></td>
-    <td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
-    <td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
 <%= link_to 'Back', shirts_path, class: "btn pull-right"%> <%= link_to 'Neuen Eintrag erstellen', new_path, class:"btn pull-right" %>
         
 

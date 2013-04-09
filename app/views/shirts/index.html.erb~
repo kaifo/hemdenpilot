@@ -1,163 +1,133 @@
 <div class="container-fluid" style="margin-top:50px;">
 	<div class="row-fluid">
-		<div class="span3">
+		<div class="span2">
       <div class="well sidebar-nav">
         <ul class="nav nav-list">
           <li>
 					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :producer, params[:producer], :style => "width:140px;", :placeholder => "Hersteller" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
+						<div class="btn-group">
+ 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hersteller <span class="caret"></span> </button>
+								<ul class="dropdown-menu" align="center">
+   					      <li><a tabindex="-1" href="#">eterna</a></li>
+   					      <li><a tabindex="-1" href="#">Olymp</a></li>
+   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
+   							</ul>
+   		      </div> <!-- /button group -->
 					</form>
 					</li>
-					<li><h5>Alle Angaben gerundet in cm</h3></li>
-          <li class="nav-header">Weiten</li>
-          <li>
+					<li>
 					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Kragen" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
+						<div class="btn-group">
+ 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdl&auml;nge <span class="caret"></span> </button>
+								<ul class="dropdown-menu" align="center">
+   					      <li><a tabindex="-1" href="#">eterna</a></li>
+   					      <li><a tabindex="-1" href="#">Olymp</a></li>
+   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
+   							</ul>
+   		      </div> <!-- /button group -->
 					</form>
 					</li>
-          <li>
+					<li>
 					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Brust" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>
-          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Taille" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>
-          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Gesäß" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>
-          <li class="nav-header">Arme</li>
-          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Bizeps" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
+						<div class="btn-group">
+ 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span> </button>
+								<ul class="dropdown-menu" align="center">
+   					      <li><a tabindex="-1" href="#">eterna</a></li>
+   					      <li><a tabindex="-1" href="#">Olymp</a></li>
+   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
+   							</ul>
+   		      </div> <!-- /button group -->
 					</form>
 					</li>
-          <li>
+					<li>
 					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Schulter" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>
-          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Ärmellänge" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>
-          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Handgelenk" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>
-          <li class="nav-header">L&auml;ngen</li>
-          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Hemdlänge" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Länge zur Brust" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Länge zur Taille" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
-					</li>          <li>
-					<form class="form-search">
-						<%= form_tag results_path, :method => "get" do %>
-				  	<%= text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Länge zur Hüfte" %>
-		        <%= submit_tag "Filtern", :class => "btn btn-primary" %>
-						<% end %>
-					</form>					
+						<div class="btn-group">
+ 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> weitere Gr&ouml;&szlig;e <span class="caret"></span> </button>
+								<ul class="dropdown-menu" align="center">
+   					      <li><a tabindex="-1" href="#">eterna</a></li>
+   					      <li><a tabindex="-1" href="#">Olymp</a></li>
+   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
+   							</ul>
+   		      </div> <!-- /button group -->
+					</form>		
 					</li>
         </ul>
       </div><!--/.well -->
     </div><!--/span-->
 
-		<div class="span9">
+		<div class="span10">
 			<div class="row-fluid">
-		    <div class="span6">
-					<h3>Gr&ouml;&szlig;e</h3>
+		    <div class="span3">
 					<div class="row-fluid">
-						<div class="span3">     
-       				<%= image_tag "Auswahl_009.png" %>
+						<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_001.png" %>
      				</div>
      				<div class="span9" style="padding:1%;">
-      				<p>In der Testdatenbank gibt es jeweils zwei Hemden mit Gr&ouml;&szlig;en 10 und 11</p>
-							<form class="form-search">
-								<%= form_tag results_path, :method => "get" do %>
-						  	<%= text_field_tag :q, params[:q] %>
-				        <%= submit_tag "Ergebnis", :class => "btn btn-primary" %>
-								<% end %>
+								<p>Kragen</p>
+							<form class="form-search"> 
+						  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
 							</form>
      				</div>
     			</div> <!-- /row -->
-	   		</div> <!-- /span6 -->
-				<div class="span6">
-					<h3>Farbe</h3>
+	   		</div> <!-- /span3 -->
+
+		    <div class="span3">
 					<div class="row-fluid">
-						<div class="span3">     
-							<%= image_tag "Auswahl_010.png" %>
-	     			</div>
-	     			<div class="span9" style="padding:1%;">
-	      			<p>Hier hast du noch die M&ouml;glichkeit der Farb- oder Musterauswahl.
-			  			<div class="btn-group">
- 	  		 				<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdenfarbe <span class="caret"></span> </button>
-									<ul class="dropdown-menu" align="center">
-    					      <li><a tabindex="-1" href="#">Wei&szlig;</a></li>
-    					      <li><a tabindex="-1" href="#">Schwarz</a></li>
-    					      <li><a tabindex="-1" href="#">Rot</a></li>
-    					      <li><a tabindex="-1" href="#">Blau</a></li>
-    					      <li><a tabindex="-1" href="#">Gelb</a></li>
-    					      <li><a tabindex="-1" href="#">Gr&uuml;n</a></li>
-    					      <li class="divider"></li>
-    			          <li><a tabindex="-1" href="#">Gestreift</a></li>
-    			          <li><a tabindex="-1" href="#">Kariert</a></li>
-    							</ul>
-    		      </div> <!-- /button group -->
-	     			</div>
+						<div class="span3" rel="tooltip" data-placement="bottom" title="Miss den Brustumfang an der breitesten Stelle der Brust. Achte darauf, dass du das Ma&szlig;band direkt unter den Achseln positionierst und vorn genau &uuml;ber die Brustwarzen und am R&uuml;cken gerade dazu verl&auml;uft. Stehe dabei entspannt und atme aus :)"> <%= image_tag "Auswahl_002.png" %>
+     				</div>
+     				<div class="span9" style="padding:1%;">
+								<p>Brust</p>
+							<form class="form-search"> 
+						  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+							</form>
+     				</div>
     			</div> <!-- /row -->
-	   		</div> <!-- /span6 -->
+	   		</div> <!-- /span3 -->
+
+		    <div class="span3">
+					<div class="row-fluid">
+						<div class="span3" rel="tooltip" data-placement="bottom" title="Miss die Taille auf der H&ouml;he, wo sich dein Bauchnabel befindet. Achte darauf, entspannt zu stehen und auszuatmen."> <%= image_tag "Auswahl_003.png" %>
+     				</div>
+     				<div class="span9" style="padding:1%;">
+								<p>Taille</p>
+							<form class="form-search"> 
+						  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+							</form>
+     				</div>
+    			</div> <!-- /row -->
+	   		</div> <!-- /span3 -->
+
+		    <div class="span3">
+					<div class="row-fluid">
+						<div class="span3" rel="tooltip" data-placement="bottom" title="Ich glaube Hemden als Tanktop-Schnitt sind eine neue Marktl&uuml;cke!"> <%= image_tag "Auswahl_003.png" %>
+     				</div>
+     				<div class="span9" style="padding:1%;">
+								<p>&Auml;rmell&auml;nge</p>
+							<form class="form-search"> 
+						<div class="btn-group">
+ 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span> </button>
+								<ul class="dropdown-menu" align="center">
+   					      <li><a tabindex="-1" href="#">kurz</a></li>
+   					      <li><a tabindex="-1" href="#">lang</a></li>
+   					      <li><a tabindex="-1" href="#">tanktop</a></li>
+   							</ul>
+   		      </div> <!-- /button group -->
+							</form>
+     				</div>
+    			</div> <!-- /row -->
+	   		</div> <!-- /span3 -->
+
 			</div> <!-- row -->
-			
+
+			<div class="row-fluid" style="margin-top:20px;">
+				<div class="span12">		
+			<%= form_tag results_path, :method => "get" do %>	
+				  <%= submit_tag "Ergebnis", :class => "btn btn-primary", :style => "margin-left:40%;" %>
+			<% end %>
+				</div>
+			</div>
+
+
+
 			<div class="row-fluid" style="margin-top:20px;">
 				<div class="span12"  align="center">
 					<table class="table">
@@ -167,7 +137,7 @@
 							<td> <%= image_tag "result_pic.png" %>
 							<td style="vertical-align:middle;"><%= shirt.producer %></td>
 							<td style="vertical-align:middle;">Farbe: <%= shirt.colour %></td>
-							<td style="vertical-align:middle;">Gr&ouml;&szlig;e: <%= shirt.size %></td>
+							<td style="vertical-align:middle;">Gr&ouml;&szlig;e: <%= shirt.schulterbreite %></td>
 							<td style="vertical-align:middle;"><%= link_to 'Hemd ansehen', shirt, :class => 'btn	btn-primary' %></td>
 							<!-- <td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
 							<td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
@@ -180,3 +150,9 @@
 		</div><!-- span10 -->
 	</div> <!-- /row -->
 </div><!--/.fluid-container--> </div>
+
+    <script>
+    jQuery(function ($) {
+        $("div").tooltip()
+    });
+</script>
