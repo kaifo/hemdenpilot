@@ -1,9 +1,80 @@
 <div class="container-fluid" style="margin-top:50px;">
+
 	<div class="row-fluid">
-		<div class="span2">
-      <div class="well sidebar-nav">
-        <ul class="nav nav-list">
-          <li>
+
+    <div class="span3">
+			<div class="row-fluid">
+				<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_001.png" %>
+ 				</div>
+ 				<div class="span9" style="padding:1%;">
+					<p>Kragen</p>
+					<form class="form-search"> 
+				  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+					</form>
+ 				</div>
+			</div> <!-- /row -->
+ 		</div> <!-- /span3 -->
+
+    <div class="span3">
+			<div class="row-fluid">
+				<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_002.png" %>
+ 				</div>
+ 				<div class="span9" style="padding:1%;">
+					<p>Brust</p>
+					<form class="form-search"> 
+				  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+					</form>
+ 				</div>
+ 			</div> <!-- /row -->
+ 		</div> <!-- /span3 -->
+
+    <div class="span3">
+			<div class="row-fluid">
+				<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_003.png" %>
+ 				</div>
+	 			<div class="span9" style="padding:1%;">
+					<p>Taille</p>
+					<form class="form-search"> 
+				  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+					</form>
+   			</div>
+  		</div> <!-- /row -->
+  	</div> <!-- /span3 -->
+
+    <div class="span3">
+			<div class="row-fluid">
+				<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_003.png" %>
+ 				</div>
+ 				<div class="span9" style="padding:1%;">
+					<p>&Auml;rmell&auml;nge</p>
+					<form class="form-search"> 
+						<div class="btn-group">
+	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" align="center">
+ 					      <li><a tabindex="-1" href="#">kurz</a></li>
+ 					      <li><a tabindex="-1" href="#">lang</a></li>
+ 					      <li><a tabindex="-1" href="#">tanktop</a></li>
+ 							</ul>
+   		      </div> <!-- /button group -->
+					</form>
+ 				</div> <!-- /span9 -->
+			</div> <!-- /row -->
+ 		</div> <!-- /span3 -->
+
+	</div> <!-- row -->
+
+
+	<div class="row-fluid" style="margin-top:20px;">
+		<div class="span12">		
+			<%= form_tag results_path, :method => "get" do %>	
+			  <%= submit_tag "Ergebnis", :class => "btn btn-primary", :style => "margin-left:40%;" %>
+			<% end %>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+
 					<form class="form-search">
 						<div class="btn-group">
  	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hersteller <span class="caret"></span> </button>
@@ -14,8 +85,6 @@
    							</ul>
    		      </div> <!-- /button group -->
 					</form>
-					</li>
-					<li>
 					<form class="form-search">
 						<div class="btn-group">
  	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdl&auml;nge <span class="caret"></span> </button>
@@ -26,8 +95,6 @@
    							</ul>
    		      </div> <!-- /button group -->
 					</form>
-					</li>
-					<li>
 					<form class="form-search">
 						<div class="btn-group">
  	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span> </button>
@@ -38,8 +105,6 @@
    							</ul>
    		      </div> <!-- /button group -->
 					</form>
-					</li>
-					<li>
 					<form class="form-search">
 						<div class="btn-group">
  	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> weitere Gr&ouml;&szlig;e <span class="caret"></span> </button>
@@ -50,82 +115,8 @@
    							</ul>
    		      </div> <!-- /button group -->
 					</form>		
-					</li>
-        </ul>
-      </div><!--/.well -->
-    </div><!--/span-->
 
-		<div class="span10">
-			<div class="row-fluid">
-		    <div class="span3">
-					<div class="row-fluid">
-						<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_001.png" %>
-     				</div>
-     				<div class="span9" style="padding:1%;">
-								<p>Kragen</p>
-							<form class="form-search"> 
-						  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
-							</form>
-     				</div>
-    			</div> <!-- /row -->
-	   		</div> <!-- /span3 -->
-
-		    <div class="span3">
-					<div class="row-fluid">
-						<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_002.png" %>
-     				</div>
-     				<div class="span9" style="padding:1%;">
-								<p>Brust</p>
-							<form class="form-search"> 
-						  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
-							</form>
-     				</div>
-    			</div> <!-- /row -->
-	   		</div> <!-- /span3 -->
-
-		    <div class="span3">
-					<div class="row-fluid">
-						<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_003.png" %>
-     				</div>
-     				<div class="span9" style="padding:1%;">
-								<p>Taille</p>
-							<form class="form-search"> 
-						  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
-							</form>
-     				</div>
-    			</div> <!-- /row -->
-	   		</div> <!-- /span3 -->
-
-		    <div class="span3">
-					<div class="row-fluid">
-						<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_003.png" %>
-     				</div>
-     				<div class="span9" style="padding:1%;">
-								<p>&Auml;rmell&auml;nge</p>
-							<form class="form-search"> 
-						<div class="btn-group">
- 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span> </button>
-								<ul class="dropdown-menu" align="center">
-   					      <li><a tabindex="-1" href="#">kurz</a></li>
-   					      <li><a tabindex="-1" href="#">lang</a></li>
-   					      <li><a tabindex="-1" href="#">tanktop</a></li>
-   							</ul>
-   		      </div> <!-- /button group -->
-							</form>
-     				</div>
-    			</div> <!-- /row -->
-	   		</div> <!-- /span3 -->
-
-			</div> <!-- row -->
-
-			<div class="row-fluid" style="margin-top:20px;">
-				<div class="span12">		
-			<%= form_tag results_path, :method => "get" do %>	
-				  <%= submit_tag "Ergebnis", :class => "btn btn-primary", :style => "margin-left:40%;" %>
-			<% end %>
-				</div>
-			</div>
-
+		</div> <!-- /row -->
 
 
 			<div class="row-fluid" style="margin-top:20px;">
