@@ -1,12 +1,6 @@
 Hemdenpilot::Application.routes.draw do
   resources :shirts
 
-
-  resources :shirts do
-  	collection { post :import }
-	end
-
-
   #get "static_pages/home"
   #get "static_pages/hemden"
   #get "static_pages/about"
