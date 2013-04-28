@@ -30,6 +30,15 @@ class ShirtsController < ApplicationController
     end
   end
 
+  def import
+    @shirts = Shirt.all
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.json { render json: @shirts }
+    end
+  end
+
   # GET /shirts/new
   # GET /shirts/new.json
   def new
@@ -89,4 +98,13 @@ class ShirtsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+
+	def import
+    @shirt = Shirt.all
+	  Shirt.import(params[:file])
+  	redirect_to 'shirts#import', notice: "Products imported."
+	end
+
+
 end

@@ -1,0 +1,72 @@
+
+
+
+<h1 style="margin-top:50px;">Listing shirts</h1>
+
+<table>
+  <tr>
+    <th>Bezeichnung</th>
+    <th>Ean</th>
+    <th>Halsweite</th>
+    <th>Oberweite</th>
+    <th>Taillenweite</th>
+    <th>Rumpflaenge</th>
+    <th>Armellaenge</th>
+    <th>Schulterbreite</th>
+    <th>Rueckenbreite</th>
+    <th>Buendchenlaenge</th>
+    <th>Halbarmlangarm</th>
+    <th>Schnitt</th>
+    <th>Kragen</th>
+    <th>Brusttasche</th>
+    <th>Manschette</th>
+    <th>Farbe</th>
+    <th>Stoff</th>
+    <th>Preis</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @shirts.each do |shirt| %>
+  <tr>
+    <td><%= shirt.bezeichnung %></td>
+    <td><%= shirt.ean %></td>
+    <td><%= shirt.halsweite %></td>
+    <td><%= shirt.oberweite %></td>
+    <td><%= shirt.taillenweite %></td>
+    <td><%= shirt.rumpflaenge %></td>
+    <td><%= shirt.armellaenge %></td>
+    <td><%= shirt.schulterbreite %></td>
+    <td><%= shirt.rueckenbreite %></td>
+    <td><%= shirt.buendchenlaenge %></td>
+    <td><%= shirt.halbarmlangarm %></td>
+    <td><%= shirt.schnitt %></td>
+    <td><%= shirt.kragen %></td>
+    <td><%= shirt.brusttasche %></td>
+    <td><%= shirt.manschette %></td>
+    <td><%= shirt.farbe %></td>
+    <td><%= shirt.stoff %></td>
+    <td><%= shirt.preis %></td>
+    <td><%= link_to 'Show', shirt %></td>
+    <td><%= link_to 'Edit', edit_shirt_path(shirt) %></td>
+    <td><%= link_to 'Destroy', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+
+
+<h2>Import Products</h2>
+
+<%= form_tag import_products_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>
+
+
+
+
+<br />
+
+<%= link_to 'New Shirt', new_shirt_path %>

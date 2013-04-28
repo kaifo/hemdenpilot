@@ -1,14 +1,4 @@
 class Shirt < ActiveRecord::Base
-  attr_accessible :colour, :producer, :size
-
-
-	def filter
-		@shirt = Shirt.filter
-
-		form_tag results_path, :method => "get" do
-		text_field_tag :q, params[:q], :style => "width:140px;", :placeholder => "Kragen"
-		submit_tag "Filtern", :class => "btn btn-primary"
-		end
-	end
+  attr_accessible :bezeichnung, :ean, :halsweite, :oberweite, :taillenweite, :rumpflaenge, :armellaenge, :schulterbreite, :rueckenbreite, :buendchenlaenge, :halbarmlangarm, :schnitt, :kragen, :brusttasche, :manschette, :farbe, :stoff, :preis, :created_at, :updated_at
 
 end

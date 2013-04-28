@@ -2,12 +2,17 @@ Hemdenpilot::Application.routes.draw do
   resources :shirts
 
 
+  resources :shirts do
+  	collection { post :import }
+	end
+
+
   #get "static_pages/home"
   #get "static_pages/hemden"
   #get "static_pages/about"
   #get "static_pages/impressum"
 
-  root to: 'static_pages#home'
+  root to: 'shirts#index'
 
 	match '/help', to: 'static_pages#help'
 	match '/hemden', to: 'shirts#results'
@@ -15,6 +20,7 @@ Hemdenpilot::Application.routes.draw do
 	match '/impressum', to: 'static_pages#impressum'
 	match '/new', to: 'shirts#new'
 	match '/results', to: 'shirts#results'
+	match '/show', to: 'shirts#show'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

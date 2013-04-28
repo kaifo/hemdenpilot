@@ -11,27 +11,29 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130407143003) do
+ActiveRecord::Schema.define(:version => 20130428143017) do
 
   create_table "shirts", :force => true do |t|
-    t.string   "producer"
-    t.integer  "size"
+    t.string   "hersteller"
+    t.string   "bezeichnung"
+    t.string   "ean"
     t.integer  "halsweite"
     t.integer  "oberweite"
     t.integer  "taillenweite"
     t.integer  "rumpflaenge"
-    t.integer  "aermellaenge"
+    t.integer  "armellaenge"
     t.integer  "schulterbreite"
     t.integer  "rueckenbreite"
     t.integer  "buendchenlaenge"
-    t.string   "arm"
+    t.integer  "halbarmlangarm"
     t.string   "schnitt"
     t.string   "kragen"
     t.string   "brusttasche"
     t.string   "manschette"
-    t.string   "colour"
+    t.string   "farbe"
     t.string   "stoff"
-    t.decimal  "preis"
+    t.float    "preis"
+    t.string   "amazon"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
   end
