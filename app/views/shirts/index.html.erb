@@ -1,120 +1,28 @@
-<div class="container-fluid" style="margin-top:50px;">
+<div class="container-fluid" style="background-image:url(assets/front.jpg); background-repeat:no-repeat; background-position:center; min-height:1200px;">
 	<%= form_tag results_path, :method => "get" do %>	
-	<div class="row-fluid">
-		<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen.">
-  	<%= image_tag "Auswahl_001.png", :style => "width:100px;" %>
-  	<%= text_field_tag :halsweite, params[:halsweite], :style => "width:100px;", :placeholder => "in cm" %>
+	<div class="row-fluid" style="margin-top:120px;">
+		<div class="span8"></div>
+		<div class="span4">
+			<h1 style="color:white;">Hemdenpilot</h1>
+			<p style="color:white; font-size:11pt;">Endlich ist Hemden kaufen einfach.</p>
+		<div class="row-fluid" style="margin-top:70px; margin-left:-20%;" rel="tooltip" data-placement="left" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen.">
+  	<%= image_tag "Auswahl_001.png", :class => "img-rounded", :style => "width:140px; margin-right:10px;" %>
+  	<%= text_field_tag :halsweite, params[:halsweite],  :style => "width:120px;",:placeholder => "Halsweite in cm" %>
 		</div>
-		<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen.">
-		<%= image_tag "Auswahl_002.png", :style => "width:100px;" %>
-  	<%= text_field_tag :oberweite, params[:oberweite], :style => "width:100px;", :placeholder => "in cm" %>
+		<div class="row-fluid" style="margin-top:20px; margin-left:-10%;" rel="tooltip" data-placement="left" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen.">
+		<%= image_tag "Auswahl_002.png", :class => "img-rounded", :style => "width:140px; margin-right:10px;" %>
+  	<%= text_field_tag :oberweite, params[:oberweite], :style => "width:120px;", :placeholder => "Oberweite in cm" %>
 		</div>
-		<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen.">
-		<%= image_tag "Auswahl_003.png", :style => "width:100px;" %>
-  	<%= text_field_tag :taillenweite, params[:taillenweite], :style => "width:100px;", :placeholder => "in cm" %>
+		<div class="row-fluid" style="margin-top:20px;" rel="tooltip" data-placement="left" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen.">
+		<%= image_tag "Auswahl_003.png", :class => "img-rounded", :style => "width:140px; margin-right:10px;" %>
+  	<%= text_field_tag :taillenweite, params[:taillenweite], :style => "width:120px;", :placeholder => "Taillenweite in cm" %>
 		</div>
-		<div class="span3" rel="tooltip" data-placement="bottom" title="Halbarm/Langarm">
-			<%= image_tag "Auswahl_003.png", :style => "width:100px;" %>	
-			<div class="btn-group">
-				<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" align="center">
-		      <li><a tabindex="-1" href="#">kurz</a></li>
-		      <li><a tabindex="-1" href="#">lang</a></li>
-				</ul>
-			</div> <!-- /button group -->
-		</div> <!-- /span3 -->
+		<div class="row-fluid" style="margin-top:20px;">
+			<%= submit_tag "finde meine Hemden", :name => nil, :class => "btn btn-success btn-large", :style => "font-size:20px; padding: 15px; margin-left:30px;"%>
+			<% end %>
+		</div>
+		</div>
 	</div><!-- /row-fluid -->
-
- 
-<div class="row-fluid"> <!-- dropdowns -->
-		<div class="accordion" id="accordion2">
-			<div class="accordion-group">
-				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-						<button class="btn btn-info btn-mini">zeige mir mehr filter</button>
-					</a>
-				</div>
-				<div id="collapseOne" class="accordion-body collapse">
-					<div class="accordion-inner">
-
-						<div class="btn-toolbar">
-
-						<div class="btn-group">
- 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hersteller <span class="caret"></span> </button>
-								<ul class="dropdown-menu" align="center">
-   					      <li><a tabindex="-1" href="#">eterna</a></li>
-   					      <li><a tabindex="-1" href="#">Olymp</a></li>
-   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
-   							</ul>
-   		      </div> <!-- /button group -->
-
-
-						<div class="btn-group">
- 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> Hemdl&auml;nge <span class="caret"></span> </button>
-								<ul class="dropdown-menu" align="center">
-   					      <li><a tabindex="-1" href="#">eterna</a></li>
-   					      <li><a tabindex="-1" href="#">Olymp</a></li>
-   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
-   							</ul>
-   		      </div> <!-- /button group -->
-
-						<div class="btn-group">
- 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span> </button>
-								<ul class="dropdown-menu" align="center">
-   					      <li><a tabindex="-1" href="#">eterna</a></li>
-   					      <li><a tabindex="-1" href="#">Olymp</a></li>
-   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
-   							</ul>
-   		      </div> <!-- /button group -->
-
-						<div class="btn-group">
- 	  		 			<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> weitere Gr&ouml;&szlig;e <span class="caret"></span> </button>
-								<ul class="dropdown-menu" align="center">
-   					      <li><a tabindex="-1" href="#">eterna</a></li>
-   					      <li><a tabindex="-1" href="#">Olymp</a></li>
-   					      <li><a tabindex="-1" href="#">Seidensticker</a></li>
-   							</ul>
-   		      </div> <!-- /button group -->
-
-					</div><!-- button toolbar-->
-	
-
- 				</div> <!-- /collapseOne -->
-			</div> <!-- /accordion-group -->
-		</div> <!-- accordion -->
-	</div> <!-- /row dropdowns -->
-
-	<div class="row-fluid" style="margin-top:20px;">
-		<div class="span12">		
-<%= submit_tag "finde meine Hemden", :name => nil, :class => "btn btn-success btn-large", :style => "margin-left:40%;"%>
-		
-	<% end %>
-		</div>
-	</div>
-
-
-			<div class="row-fluid" style="margin-top:20px;">
-				<div class="span12"  align="center">
-					<table class="table">
-					<table class="table table-hover">
-						<% @shirts.each do |shirt| %>
-						<tr>
-							<td> <%= image_tag "result_pic.png" %>
-							<td style="vertical-align:middle;"><%= shirt.hersteller %></td>
-							<td style="vertical-align:middle;"><%= shirt.schnitt %></td>
-							<td style="vertical-align:middle;">Gr&ouml;&szlig;e: <%= shirt.schulterbreite %></td>
-							<td style="vertical-align:middle;"><%= link_to 'Hemd ansehen', shirt, :class => 'btn	btn-primary' %></td>
-							<!-- <td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
-							<td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
-						</tr>
-						<% end %>
-					</table>
-				</div> <!-- /span 12-->
-			</div><!-- /row -->
-
-		</div><!-- span10 -->
-	</div> <!-- /row -->
 </div><!--/.fluid-container--> </div>
 
     <script>
@@ -122,66 +30,4 @@
         $("div").tooltip()
     });
 		</script>
-
-
-
-
-<!-- 
-
-
-<h1 style="margin-top:50px;">Listing shirts</h1>
-
-<table>
-  <tr>
-		<th>Hersteller</th>
-    <th>Bezeichnung</th>
-    <th>Ean</th>
-    <th>Halsweite</th>
-    <th>Oberweite</th>
-    <th>Taillenweite</th>
-    <th>Rumpflaenge</th>
-    <th>Armellaenge</th>
-    <th>Schulterbreite</th>
-    <th>Rueckenbreite</th>
-    <th>Buendchenlaenge</th>
-    <th>Halbarmlangarm</th>
-    <th>Schnitt</th>
-    <th>Kragen</th>
-    <th>Brusttasche</th>
-    <th>Manschette</th>
-    <th>Farbe</th>
-    <th>Stoff</th>
-    <th>Preis</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @shirts.each do |shirt| %>
-  <tr>
-    <td><%= shirt.hersteller %></td>		
-    <td><%= shirt.bezeichnung %></td>
-    <td><%= shirt.ean %></td>
-    <td><%= shirt.halsweite %></td>
-    <td><%= shirt.oberweite %></td>
-    <td><%= shirt.taillenweite %></td>
-    <td><%= shirt.rumpflaenge %></td>
-    <td><%= shirt.armellaenge %></td>
-    <td><%= shirt.schulterbreite %></td>
-    <td><%= shirt.rueckenbreite %></td>
-    <td><%= shirt.buendchenlaenge %></td>
-    <td><%= shirt.halbarmlangarm %></td>
-    <td><%= shirt.schnitt %></td>
-    <td><%= shirt.kragen %></td>
-    <td><%= shirt.brusttasche %></td>
-    <td><%= shirt.manschette %></td>
-    <td><%= shirt.farbe %></td>
-    <td><%= shirt.stoff %></td>
-    <td><%= shirt.preis %></td>
-    <td><%= link_to 'Show', shirt %></td>
-    <td><%= link_to 'Edit', edit_shirt_path(shirt) %></td>
-    <td><%= link_to 'Destroy', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table> -->
 

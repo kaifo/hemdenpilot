@@ -15,23 +15,9 @@
 		</div>
 		<div class="span3" rel="tooltip" data-placement="bottom" title="Halbarm/Langarm">
 			<%= image_tag "Auswahl_003.png", :style => "width:100px;" %>	
-			<div class="btn-group">
-				<button type="select" class="btn dropdown-toggle" data-toggle="dropdown"> &Auml;rmell&auml;nge <span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" align="center">
-		      <li><a tabindex="-1" href="#">kurz</a></li>
-		      <li><a tabindex="-1" href="#">lang</a></li>
-				</ul>
-			</div> <!-- /button group -->
+			<%= select(:shirts, :dropdown, @shirts.collect {|r| [ r.schnitt, r.id ] }, { :include_blank => true }) %>
 		</div> <!-- /span3 -->
-
-
-
 	</div><!-- /row-fluid -->
-
-<%= submit_tag "finde meine Hemden", :name => nil, :class => "btn btn-success btn-large", :style => "margin-left:40%;"%>
-		
-	<% end %>
 
  
 <div class="row-fluid"> <!-- dropdowns -->
@@ -94,9 +80,9 @@
 
 	<div class="row-fluid" style="margin-top:20px;">
 		<div class="span12">		
-			<%= form_tag results_path, :method => "get" do %>	
-			  <%= submit_tag "finde meine Hemden", :class => "btn btn-success btn-large", :style => "margin-left:40%;" %>
-			<% end %>
+<%= submit_tag "finde meine Hemden", :name => nil, :class => "btn btn-success btn-large", :style => "margin-left:40%;"%>
+		
+	<% end %>
 		</div>
 	</div>
 
@@ -105,16 +91,20 @@
 				<div class="span12"  align="center">
 					<table class="table">
 					<table class="table table-hover">
+  <% if (@shirts.empty?) %>
+    <h2>No Shirts found.</h2>
+  <% else %>
 						<% @shirts.each do |shirt| %>
 						<tr>
 							<td> <%= image_tag "result_pic.png" %>
-							<td style="vertical-align:middle;"><%= shirt.hersteller %></td>
-							<td style="vertical-align:middle;"><%= shirt.schnitt %></td>
-							<td style="vertical-align:middle;">Gr&ouml;&szlig;e: <%= shirt.schulterbreite %></td>
+							<td style="vertical-align:middle;">Halsweite: <%= tidy_float(shirt.halsweite) %></td>
+							<td style="vertical-align:middle;">Oberweie: <%= tidy_float(shirt.oberweite) %></td>
+							<td style="vertical-align:middle;">taillenweite: <%= tidy_float (shirt.taillenweite) %></td>
 							<td style="vertical-align:middle;"><%= link_to 'Hemd ansehen', shirt, :class => 'btn	btn-primary' %></td>
 							<!-- <td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
 							<td><%= link_to 'Loeschen', shirt, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
 						</tr>
+						<% end %>
 						<% end %>
 					</table>
 				</div> <!-- /span 12-->

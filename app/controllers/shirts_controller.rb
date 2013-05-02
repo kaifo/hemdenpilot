@@ -1,4 +1,6 @@
 class ShirtsController < ApplicationController
+  respond_to :html, :xml
+
   # GET /shirts
   # GET /shirts.json
   def index
@@ -22,7 +24,7 @@ class ShirtsController < ApplicationController
   end
 
   def results
-    @shirts = Shirt.where(:halsweite => params[:halsweite], :oberweite => params[:oberweite], :taillenweite => params[:taillenweite])
+    @shirts = Shirt.searchapprox(params[:halsweite], params[:oberweite], params[:taillenweite])
 
     respond_to do |format|
       format.html # index.html.erb
