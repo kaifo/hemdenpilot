@@ -2,7 +2,7 @@ class ShirtsController < ApplicationController
   # GET /shirts
   # GET /shirts.json
   def index
-    @shirts = Shirt.where(:schulterbreite => params[:q])
+    @shirts = Shirt.where(:halsweite => params[:halsweite])
 
     respond_to do |format|
       format.html # index.html.erb
@@ -22,7 +22,7 @@ class ShirtsController < ApplicationController
   end
 
   def results
-    @shirts = Shirt.where(:schulterbreite => params[:q])
+    @shirts = Shirt.where(:halsweite => params[:halsweite], :oberweite => params[:oberweite])
 
     respond_to do |format|
       format.html # index.html.erb
@@ -103,7 +103,7 @@ class ShirtsController < ApplicationController
 	def import
     @shirt = Shirt.all
 	  Shirt.import(params[:file])
-  	redirect_to import, notice: "Products imported."
+  	redirect_to 'shirts#import', notice: "Products imported."
 	end
 
 

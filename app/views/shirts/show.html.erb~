@@ -1,18 +1,103 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Producer:</b>
-  <%= @shirt.producer %>
+  <b>Hersteller:</b>
+  <%= @shirt.hersteller %>
 </p>
 
 <p>
-  <b>Colour:</b>
-  <%= @shirt.colour %>
+  <b>Bezeichnung:</b>
+  <%= @shirt.bezeichnung %>
 </p>
 
 <p>
-  <b>Size:</b>
-  <%= @shirt.size %>
+  <b>Ean:</b>
+  <%= @shirt.ean %>
+</p>
+
+<p>
+  <b>Halsweite:</b>
+  <%= @shirt.halsweite %>
+</p>
+
+<p>
+  <b>Oberweite:</b>
+  <%= @shirt.oberweite %>
+</p>
+
+<p>
+  <b>Taillenweite:</b>
+  <%= @shirt.taillenweite %>
+</p>
+
+<p>
+  <b>Rumpflaenge:</b>
+  <%= @shirt.rumpflaenge %>
+</p>
+
+<p>
+  <b>Armellaenge:</b>
+  <%= @shirt.armellaenge %>
+</p>
+
+<p>
+  <b>Schulterbreite:</b>
+  <%= @shirt.schulterbreite %>
+</p>
+
+<p>
+  <b>Rueckenbreite:</b>
+  <%= @shirt.rueckenbreite %>
+</p>
+
+<p>
+  <b>Buendchenlaenge:</b>
+  <%= @shirt.buendchenlaenge %>
+</p>
+
+<p>
+  <b>Halbarmlangarm:</b>
+  <%= @shirt.halbarmlangarm %>
+</p>
+
+<p>
+  <b>Schnitt:</b>
+  <%= @shirt.schnitt %>
+</p>
+
+<p>
+  <b>Kragen:</b>
+  <%= @shirt.kragen %>
+</p>
+
+<p>
+  <b>Brusttasche:</b>
+  <%= @shirt.brusttasche %>
+</p>
+
+<p>
+  <b>Manschette:</b>
+  <%= @shirt.manschette %>
+</p>
+
+<p>
+  <b>Farbe:</b>
+  <%= @shirt.farbe %>
+</p>
+
+<p>
+  <b>Stoff:</b>
+  <%= @shirt.stoff %>
+</p>
+
+<p>
+  <b>Preis:</b>
+  <%= @shirt.preis %>
+</p>
+
+<p>
+  <b>Amazon:</b>
+  <%= @shirt.amazon %>
 </p>
 
 

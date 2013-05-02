@@ -1,7 +1,7 @@
 <div class="container-fluid" style="margin-top:50px;">
-
+<form class="form-search">
+			<%= form_tag results_path, :method => "get" do %>	
 	<div class="row-fluid">
-
     <div class="span3">
 			<div class="row-fluid">
 				<div class="span3" rel="tooltip" data-placement="bottom" title="Lege das Maßband um den Hals, knapp unterhalb des Kehlkopfes. Um einen bequemen Sitz zu gew&auml;hrleisten, sollte zumindest ein Finger zwischen Ma&szlig;band und deinen Hals passen."> <%= image_tag "Auswahl_001.png" %>
@@ -9,7 +9,7 @@
  				<div class="span9" style="padding:1%;">
 					<p>Kragen</p>
 					<form class="form-search"> 
-				  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+				  	<%= text_field_tag :halsweite, params[:halsweite], :style => "width:100px;", :placeholder => "in cm" %>
 					</form>
  				</div>
 			</div> <!-- /row -->
@@ -22,7 +22,7 @@
  				<div class="span9" style="padding:1%;">
 					<p>Brust</p>
 					<form class="form-search"> 
-				  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+				  	<%= text_field_tag :oberweite, params[:oberweite], :style => "width:100px;", :placeholder => "in cm" %>
 					</form>
  				</div>
  			</div> <!-- /row -->
@@ -35,7 +35,7 @@
 	 			<div class="span9" style="padding:1%;">
 					<p>Taille</p>
 					<form class="form-search"> 
-				  	<%= text_field_tag :q, params[:q], :style => "width:100px;", :placeholder => "in cm" %>
+				  	<%= text_field_tag :taillenweite, params[:taillenweite], :style => "width:100px;", :placeholder => "in cm" %>
 					</form>
    			</div>
   		</div> <!-- /row -->
@@ -54,7 +54,6 @@
 							<ul class="dropdown-menu" align="center">
  					      <li><a tabindex="-1" href="#">kurz</a></li>
  					      <li><a tabindex="-1" href="#">lang</a></li>
- 					      <li><a tabindex="-1" href="#">tanktop</a></li>
  							</ul>
    		      </div> <!-- /button group -->
 					</form>
@@ -124,11 +123,11 @@
 
 	<div class="row-fluid" style="margin-top:20px;">
 		<div class="span12">		
-			<%= form_tag results_path, :method => "get" do %>	
-			  <%= submit_tag "finde meine Hemden", :class => "btn btn-success btn-large", :style => "margin-left:40%;" %>
-			<% end %>
+			  <%= submit_tag "finde meine Hemden", :name => nil, :class => "btn btn-success btn-large", :style => "margin-left:40%;" %>
 		</div>
 	</div>
+			<% end %>
+	</form>
 
 
 			<div class="row-fluid" style="margin-top:20px;">
@@ -138,8 +137,8 @@
 						<% @shirts.each do |shirt| %>
 						<tr>
 							<td> <%= image_tag "result_pic.png" %>
-							<td style="vertical-align:middle;"><%= shirt.bezeichnung %></td>
-							<td style="vertical-align:middle;">Farbe: <%= shirt.farbe %></td>
+							<td style="vertical-align:middle;"><%= shirt.hersteller %></td>
+							<td style="vertical-align:middle;"><%= shirt.schnitt %></td>
 							<td style="vertical-align:middle;">Gr&ouml;&szlig;e: <%= shirt.schulterbreite %></td>
 							<td style="vertical-align:middle;"><%= link_to 'Hemd ansehen', shirt, :class => 'btn	btn-primary' %></td>
 							<!-- <td><%= link_to 'Bearbeiten', edit_shirt_path(shirt) %></td>
@@ -164,12 +163,11 @@
 
 
 
-
-
 <h1 style="margin-top:50px;">Listing shirts</h1>
 
 <table>
   <tr>
+		<th>Hersteller</th>
     <th>Bezeichnung</th>
     <th>Ean</th>
     <th>Halsweite</th>
@@ -195,6 +193,7 @@
 
 <% @shirts.each do |shirt| %>
   <tr>
+    <td><%= shirt.hersteller %></td>		
     <td><%= shirt.bezeichnung %></td>
     <td><%= shirt.ean %></td>
     <td><%= shirt.halsweite %></td>
@@ -219,4 +218,3 @@
   </tr>
 <% end %>
 </table>
-
